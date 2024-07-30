@@ -51,8 +51,28 @@ jobs:
         ls -al quarto-observable-file-processor
         echo "Listing contents of exportFiles if it exists:"
         ls -al quarto-observable-file-processor/exportFiles || echo "exportFiles directory does not exist in quarto-observable-file-processor"
+  render-and-publish-quarto-side:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
 
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: verify paths
+        run: |
+          cd ${GITHUB_WORKSPACE}
+          echo "Listing current directory:"
+          ls -al
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+          path: ${GITHUB_WORKSPACE}/exportFiles
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
     
     - name: Verify exportFiles directory
