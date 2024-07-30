@@ -71,9 +71,6 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
-        
-    - name: Check out repository
-      uses: actions/checkout@v4
 
     - name: verify paths before quarto runs
       run: |
