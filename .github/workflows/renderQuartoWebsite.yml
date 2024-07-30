@@ -53,7 +53,6 @@ jobs:
         ls -al quarto-observable-file-processor/exportFiles || echo "exportFiles directory does not exist in quarto-observable-file-processor"
   
   render:
-    runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
