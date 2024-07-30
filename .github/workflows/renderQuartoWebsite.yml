@@ -1,0 +1,41 @@
+name: Generate Export Files
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout current repository
+      uses: actions/checkout@v3
+
+    - name: Checkout QuartoObsidianFileProcessor repository
+      uses: actions/checkout@v3
+      with:
+        repository: uegwq/QuartoObsidianFileProcessor
+        token: ${{ secrets.GITHUB_TOKEN }}
+        path: quarto-observable-file-processor
+
+    - name: Set up JDK 22
+      uses: actions/setup-java@v3
+      with:
+        java-version: 22
+
+    - name: Build the QuartoObsidianFileProcessor project
+      run: |
+        cd quarto-observable-file-processor
+        mvn clean install
+
+    - name: Run SuperMain
+      run: |
+        cd quarto-observable-file-processor
+        java -cp target/QuartoObsidianFileProcessor-1.0-SNAPSHOT.jar controler.SuperMain ui--false ${GITHUB_WORKSPACE}
+    
+    - name: Verify exportFiles directory
+      run: |
+        if [ -d "exportFiles" ]; then echo "Directory exportFiles exists."; else echo "Directory exportFiles does not exist."; exit 1; fi
