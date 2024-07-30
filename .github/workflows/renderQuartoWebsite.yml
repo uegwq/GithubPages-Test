@@ -59,8 +59,8 @@ jobs:
 
     - name: git commit everything
       run: |
-        git add exportFiles
-        git commit -m "added the exportFiles" -f
+        git add exportFiles -f
+        git commit -m "added the exportFiles"
 
 
     - name: Set up Quarto
