@@ -618,867 +618,293 @@
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer linearen Abbildung.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer linearen Abbildung.html#definition",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer Abbildung von Km nach Kn.html#satz-4.3.1",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer Abbildung von Km nach Kn.html#satz-4.3.1",
     "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nHier sei \\(\\Bbb K\\) ein Körper und \\(V,W\\) je zwei Vektorräume aus diesem Körper, mit \\(n = dim_{\\Bbb K}(V)\\) und \\(m = dim_{\\Bbb K}(W)\\) und nehmen wir an es seien zwei geordnete Basis \\(B_V\\) und \\(B_W\\) gegeben.\n\nSei \\(A\\in \\Bbb K^{m \\times n}\\) eine Matrix und \\(\\varphi_A\\) die Linksmultiplikation von \\(A\\). Dementsprechend kann ich eine Abbildung \\(\\varphi\\) konstruieren, die von \\(V \\rightarrow W\\) geht und so definiert ist, dass sie einen Vektor V nimmt, ihn in seine Isomorphe darstellung in \\(\\Bbb K^n\\) umwandelt, diesen Vektor links mit \\(A\\) multipliziert, und ihn dann von \\(\\Bbb K^m\\) in seine Isomorphe darstellung in \\(W\\) umwandelt. :)\nFür jede \\(\\Bbb K\\)-lineare Abbildung \\(\\varphi\\) gibt es eine Darstellungsmatrix \\(M_{B_W,B_V}(\\varphi)\\)!\nMan kann Darstellungsmatrizen / Abbildungen sozusagen “transitiv verketten”.\nEs gilt nämlich: \\(M_{B_W,B_U}(\\varphi)M_{B_U,B_W}(\\varphi)=M_{B_W,B_V}(\\varphi).\\)\nDie Einheitsmatrix entspricht der Identitätsabbildung\nMatrizen und lineare Abbildungen sind Isomorph!!!\nEine lineare Abbildung ist genau dann bijetiv, wenn ihre Darstellungsmatrix invertierbar ist.\nDie Menge aller Vektorraumendomorphismen \\(End_{\\Bbb K}(V)\\) von \\(V\\) bildet mit \\(+\\) und \\(\\circ\\) einen Ring. Die Abbildungen die VR-Endomorphismen eine Matrix zuordnet ist ein Isomorphismus.",
+    "section": "Satz (4.3.1)",
+    "text": "Satz (4.3.1)\n\nMan hat gesehen, dass man eine Abbildung von \\(K^n\\) nach \\(K^m\\) auch als Linksmultiplikation einer Matrix darstellen kann. Es gilt aber sogar:\n\nfür jede Matrix \\(A \\in \\Bbb K^{m \\times n}\\) ist die Abbildung \\[\\varphi_A:\\Bbb K^n \\rightarrow \\Bbb K^m, x \\mapsto Ax\\] \\(\\Bbb K\\)-linear, also \\(\\varphi \\in Hom(\\Bbb K^n, \\Bbb K^m)\\).\n\n\nIN DEN SPALTEN DER MATRIX A STEHEN DIE BILDER DER STANDARTBASISVEKTOREN OMG\n\n\nZu jeder linearen Abbildung \\(\\varphi:\\Bbb K^n \\rightarrow \\Bbb K^m\\) gibt es eine Matrix \\(A \\in \\Bbb K^{m \\times n}\\), sodass “\\(Ax = \\varphi(x)\\)”. Diese Matrix ist eindeutig und wird auch Darstellungsmatrix genannt. Man bezeichnet sie mit \\(M_{E,E}(\\varphi)\\).\nGegeben sind zwei Matrizen \\(A\\in \\Bbb{K}^{m\\times n}\\) sowie \\(B \\in \\Bbb{K}^{n\\times p}\\). Das verketten der linearen darstellungsabbilden Abbildungen \\(\\varphi_A\\) und \\(\\varphi_B\\) entspricht dem Multiplizieren der Matrizen und umgekehrt.\nDie Einheitsmatrix entspricht der Identitätsabbildung\nEs gilt, dass eine Matrix \\(A \\in \\Bbb K^{m\\times n}\\) ist isomorph zu ihrer lineareren Abbildung \\(\\varphi_A\\).\nEine lineare Abbildung \\(\\varphi = \\varphi_A: \\Bbb K^n \\rightarrow \\Bbb K^m\\) ist genau dann bijektiv (also ein VR Isomorphismus), wenn \\(m=n\\) und wenn die Darstellungsmatrix \\(A=M_{E,E}(\\varphi)\\) multiplikativ invertierbar ist.",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Darstellungsmatrix einer linearen Abbildung"
+      "4.3 Darstellungsmatrix einer Abbildung von $\\Bbb K^n$ nach $\\Bbb K^m$"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer linearen Abbildung.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer linearen Abbildung.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer Abbildung von Km nach Kn.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer Abbildung von Km nach Kn.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nInvertierbare Matrizen\nBasiswechselmatrix\nDarstellungsmatrix einer linearen Abbildung",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "4.3 Darstellungsmatrix einer Abbildung von $\\Bbb K^n$ nach $\\Bbb K^m$"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix von Km nach Kn.html#satz-4.3.1",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix von Km nach Kn.html#satz-4.3.1",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Satz (4.3.1)",
+    "text": "Satz (4.3.1)\n\nMan hat gesehen, dass man eine Abbildung von \\(K^n\\) nach \\(K^m\\) auch als Linksmultiplikation einer Matrix darstellen kann. Es gilt aber sogar:\n\nfür jede Matrix \\(A \\in \\Bbb K^{m \\times n}\\) ist die Abbildung \\[\\varphi_A:\\Bbb K^n \\rightarrow \\Bbb K^m, x \\mapsto Ax\\] \\(\\Bbb K\\)-linear, also \\(\\varphi \\in Hom(\\Bbb K^n, \\Bbb K^m)\\).\n\n\nIN DEN SPALTEN DER MATRIX A STEHEN DIE BILDER DER STANDARTBASISVEKTOREN OMG\n\n\nZu jeder linearen Abbildung \\(\\varphi:\\Bbb K^n \\rightarrow \\Bbb K^m\\) gibt es eine Matrix \\(A \\in \\Bbb K^{m \\times n}\\), sodass “\\(Ax = \\varphi(x)\\)”. Diese Matrix ist eindeutig und wird auch Darstellungsmatrix genannt. Man bezeichnet sie mit \\(M_{E,E}(\\varphi)\\).\nGegeben sind zwei Matrizen \\(A\\in \\Bbb{K}^{m\\times n}\\) sowie \\(B \\in \\Bbb{K}^{n\\times p}\\). Das verketten der linearen darstellungsabbilden Abbildungen \\(\\varphi_A\\) und \\(\\varphi_B\\) entspricht dem Multiplizieren der Matrizen und umgekehrt.\nDie Einheitsmatrix entspricht der Identitätsabbildung\nEs gilt, dass eine Matrix \\(A \\in \\Bbb K^{m\\times n}\\) ist isomorph zu ihrer lineareren Abbildung \\(\\varphi_A\\).\nEine lineare Abbildung \\(\\varphi = \\varphi_A: \\Bbb K^n \\rightarrow \\Bbb K^m\\) ist genau dann bijektiv (also ein VR Isomorphismus), wenn \\(m=n\\) und wenn die Darstellungsmatrix \\(A=M_{E,E}(\\varphi)\\) multiplikativ invertierbar ist."
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix von Km nach Kn.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix von Km nach Kn.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nInvertierbare Matrizen\nBasiswechselmatrix\nDarstellungsmatrix einer linearen Abbildung"
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Smithsche Normalform.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Smithsche Normalform.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nZu jeder linearen Abbildung \\(\\varphi: V \\rightarrow W\\) existieren zwei geordnete Basen \\(B_W, B_V\\), sodass die Darstellungsmatrix von \\(\\varphi\\) bezüglich diesen Basen in folgender Diagonalform ist:\n\nDie Anzahl der Einsen entspricht genau \\(rg(\\varphi)\\).",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "4.3 Smithsche Normalform"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Smithsche Normalform.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Smithsche Normalform.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Darstellungsmatrix einer linearen Abbildung"
+      "4.3 Smithsche Normalform"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#definition",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#definition",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper, \\(V,W\\) VR der Dimension \\(n\\) und \\(C,B\\) seien geordnete Basen von \\(V\\). Die Darstellungsmatrix\n\\[M_{C,B}(id_V)\\]\nvon der Identität ist die Darstellungsmatrix mit der geordneten Basis B im Definitionsbereich und C im Zielbereich. Diese Matrix nennt man Basiswechselmatrix von B nach C.",
+    "text": "Definition\n\nZwei Matrizen \\(A,B\\in \\Bbb K^{m\\times n}\\) heißen Äquivalent, wenn es zwei Invertierbare Matrizen \\(S \\in GL(m,\\Bbb K)\\) und \\(T\\in GL(n,\\Bbb K)\\) gibt, sodass \\(SAT = B\\).\nZwei Matrizen \\(A,B\\in \\Bbb K^{n\\times n}\\) heißen Ähnlich, wenn es eine Invertierbare Matrizen \\(S \\in GL(n,\\Bbb K)\\) gibt, sodass \\(SAS^{-1} = B\\).\nDas bedeutet also, dass zwei Matrizen Ähnlich sind, wenn die denselben Endomorphismus nur bezüglich unterschiedlichen Basen beschreiben.",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Basiswechselmatrix"
+      "4.3 Äquivalente und Ähnliche Matrizen"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#lemma-4.3.15",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#lemma-4.3.15",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#korollar-4.3.19",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#korollar-4.3.19",
     "title": "Über das wissenschaftliche Schreiben",
-    "section": "Lemma (4.3.15)",
-    "text": "Lemma (4.3.15)\n\nMan kann sich jede invertierbare Matrix auch als Basiswechselmatrix vorstellen :)",
+    "section": "Korollar 4.3.19",
+    "text": "Korollar 4.3.19\n\nZwei Martizen \\(A,B\\in \\Bbb K^{n\\times n}\\) sind genau dann äquivalent, wenn sie den gleichen Rang haben.",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Basiswechselmatrix"
+      "4.3 Äquivalente und Ähnliche Matrizen"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#ähnlichkeitsinvarianten-5.5.7",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#ähnlichkeitsinvarianten-5.5.7",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Ähnlichkeitsinvarianten (5.5.7)",
+    "text": "Ähnlichkeitsinvarianten (5.5.7)\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(A,B\\in\\Bbb K^{n\\times n}\\). Wenn \\(A\\) und \\(B\\) ähnlich sind, so gilt\n\n\\(rg(A)=rg(B)\\)\n\\(det(A)=det(B)\\)\n\\(tr(A)=tr(B)\\)\n\nDies ist aber keine Äquivalente Beziehung! Wenn die drei Eigenschaften erfüllt sind heißt dies nicht, dass zwei Matrizen Ähnlich sind!\n\nZudem haben zwei Ähnliche Matrizen dieselben Eigenwerte.\nZudem haben zwei Ähnliche Matrizen dasselbe charakteristische Polynom.",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "4.3 Äquivalente und Ähnliche Matrizen"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nSmithsche Normalform",
+    "text": "Siehe auch\n\n\nSpur einer Matrix",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Basiswechselmatrix"
+      "4.3 Äquivalente und Ähnliche Matrizen"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "",
-    "text": "yTARGET DECK\nLineare Algebra I\n4.3 Invertierbare Matrizen\n–",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "Definition"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#definition",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Lineare Abbildung.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Lineare Abbildung.html#definition",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Definition",
-    "text": "Definition\n\nEine quadratische Matrix \\(A\\in \\Bbb K^{n\\times n}\\) heißt invertierbare Matrix, wenn es eine andere Matrix \\(B\\in \\Bbb K^{n\\times n}\\) existiert, sodass man sie durch die Matrizenmultiplikation und den Operationen des Körpers auswertet zu:\n\\[ AB = \\Bbb 1_n = BA\\]\nDie Gruppe aller invertierbaren Matrizen mit reelen Eintragen bezeichnet man als allgemeine lineare Gruppe und schreibt \\(GL(n,\\Bbb R)\\)",
+    "text": "Definition\n\nEine Lineare Abbildung ist ein Homomorphismus von \\(\\Bbb{K}\\)-Vektorräumen. Also ist eine Abbildung \\(\\varphi\\) linear, wenn:\n\\[\\varphi: V \\rightarrow W\\]\n\\[\\forall x,y\\in V:\\varphi(x+y)=\\varphi(x)+\\varphi(y)\\]\n\\[\\forall \\lambda \\in \\Bbb{K}, x\\in V:\\varphi(\\lambda \\cdot y)=\\lambda \\cdot\\varphi(y)\\]\nIsomorphie und Endomorphie und Automorphie ist gleich und klar.",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
-      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "Definition"
+      "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
+      "4.1 Lineare Abbildung"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#charakterisierung",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#charakterisierung",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Charakterisierung",
-    "text": "Charakterisierung\n\n\n\\(A\\) ist invertierbar.\n\\(A^T\\) ist invertierbar.\n\\(B \\in K^n\\) : \\(BA = \\mathbf{1}_n\\).\n\\(B \\in K^n\\) : \\(AB = \\mathbf{1}_n\\).\n\\(\\text{ker}(A) = \\{0\\}\\).\n\\(\\text{rg}(A) = n\\).\n\\(A : K^n \\rightarrow K^n\\), \\(x \\mapsto Ax\\) ist injektiv.\n\\(A : K^n \\rightarrow K^n\\), \\(x \\mapsto Ax\\) ist surjektiv.\n\\(A : K^n \\rightarrow K^n\\), \\(x \\mapsto Ax\\) ist bijektiv.",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "Definition"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Lineare Abbildung.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Lineare Abbildung.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nÄquivalente und Ähnliche Matrizen\nKriterium für die Invertierbarkeit",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "Definition"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum aller K-Linearen Abbildungen.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum aller K-Linearen Abbildungen.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb{K}\\) ein Körper und \\(V\\), \\(W\\) seien Vektorräume über \\(\\Bbb{K}\\). Dann ist die Menge aller \\(\\Bbb{K}\\)-linearen Abbildungen von \\(V\\) nach \\(W\\) ein Untervektorraum von \\(W^V\\).\nDiesen Untervektorraum nennen wir \\(Hom_\\Bbb{K}(V,W)\\).",
+    "text": "Siehe auch\n\n\nRang einer linearen Abbildung\nDarstellungsmatrix einer Abbildung von Km nach Kn\nFortsetzungssatz\nSatz bezüglich Erzeugendensystem, linear unabhängig, Basis und surjektiv, injektiv, bijektiv\nDimensionsformel für lineare Abbildungen\nLinear in der j-ten Komponente, multilinear und alternierend\nDeterminante und Spur eines Endomorphismus",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Untervektorraum aller K-Linearen Abbildungen"
+      "4.1 Lineare Abbildung"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum aller K-Linearen Abbildungen.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum aller K-Linearen Abbildungen.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Vektorraum über K.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Vektorraum über K.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb{K}\\) ein Körper. Ein \\(\\Bbb{K}\\)-Vektorraum \\((V,+,\\cdot)\\) ist eine Menge \\(V\\) zusammen mit zwei Operationen \\(+\\) (Addition) und \\(\\cdot\\) (Skalare Multiplikation), die folgendes erfüllen:\n\n\\((V,+)\\) ist eine abelsche Gruppe\n\\(\\forall \\lambda\\in\\Bbb{K}, v,w\\in V: \\lambda \\cdot (v+w) = \\lambda \\cdot v + \\lambda \\cdot w\\)\n\\(\\forall \\lambda, \\micro \\in\\Bbb{K}, v,w\\in V: (\\lambda + \\micro) \\cdot v = \\lambda \\cdot v + \\micro \\cdot v\\)\n\\(\\forall \\lambda, \\micro \\in\\Bbb{K}, v,w\\in V: (\\lambda \\cdot \\micro) \\cdot v = \\lambda \\cdot (\\micro \\cdot v)\\)\n\\(\\forall v \\in V: 1_{\\Bbb{K}} \\cdot v = v\\)\n\nAlle Elemente aus \\(V\\) nennt man dann Vektoren und die Elemente aus $ nennt man Skalare.",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
+      "4.1 Vektoraum über $\\Bbb{K}$"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Vektorraum über K.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Vektorraum über K.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nAffiner Unterraum",
+    "text": "Siehe auch\n\n\nUntervektorraum\nLineare Abbildung\nLineare Hülle und Erzeugendensystem\nQuotientenvektorraum\nAlgebren",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Untervektorraum aller K-Linearen Abbildungen"
+      "4.1 Vektoraum über $\\Bbb{K}$"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#definition",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#definition",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb{K}\\) ein Körper. Eine Teilmenge \\(R \\subseteq V\\) eines K-Vektorraumes heiße affiner Unterraum, wenn ein \\(p\\in V\\) und ein Untervektorraum \\(U\\) existiert, sodass\n\\[R = p+U\\]",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Affiner Unterraum"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#dimension-eines-affinen-unterraumes",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#dimension-eines-affinen-unterraumes",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Dimension eines Affinen Unterraumes",
-    "text": "Dimension eines Affinen Unterraumes\n\nDie Dimension eines Affinen Unterraumes ist die Dimension des um den Fußpunkt verschobenen Untervektorraums.",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Affiner Unterraum"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Affiner Unterraum"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nWenn wir einen Vektorraum \\((V,+,\\cdot)\\) haben und \\(U \\subseteq V\\), dann heißt \\((U,+,\\cdot)\\) ein Untervektorraum, wenn folgende Bedingungen erfüllt sind:\n\n\\(0_V\\in U\\)\nAbgeschlossen unter addition\nAbgeschlossen unter skalarer Multiplikation",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Untervektorraum"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nAffiner Unterraum\nUntervektorraum aller K-Linearen Abbildungen\nSumme von Untervektorräumen\nSchnitt von Untervektorräumen\nDirektes Produkt von Vektorräumen\nDirekte Summe von Untervektorräumen\nKomplementäre Untervektorräume",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Untervektorraum"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(n\\in \\Bbb N_0\\) und es seien \\(V_1,...,V_n\\) ganz viele Vektorräume über demselben Grundkörper \\(\\Bbb K\\).\nDann definieren wir die Addition als:\n\\(+ :(V_1\\times...\\times V_n)\\times(V_1\\times...\\times V_n) \\rightarrow (V_1\\times...\\times V_n),\\)\n\\((v_1,...,v_n) + (w_1,...,w_n):= (v_1+ w_1,...,v_n +w_n)\\)\nund die Skalare Multiplikation als\n\\(\\lambda \\cdot(v_1,...,v_n) :=(\\lambda\\cdot v_1,...,\\lambda\\cdot v_n)\\)\nUnd ohh \\((V_1\\times...\\times V_n)\\) wird selber wieder zu einem Vektorraum unter \\(+\\) und der Skalaren Multiplikation.",
+    "text": "Definition\n\nZwei Untervektorräume \\(U,W\\) von \\(V\\) sind komplementär zueinander, wenn \\(U \\oplus W = V\\), also sich jeder Vektor sich eindeutig und nicht mehrdeutig als Summe von \\(u\\in U\\) und \\(w\\in W\\) schreiben lässt.",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.4 Direkte Summen und Komplemente",
-      "4.4 Direktes Produkt von Vektorräumen"
+      "4.4 Komplementäre Untervektorräume"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#lemma",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#lemma",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#satz-4.4.11.",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#satz-4.4.11.",
     "title": "Über das wissenschaftliche Schreiben",
-    "section": "Lemma",
-    "text": "Lemma\n\n\nDie Additionsabbildung \\(+\\) ist \\(\\Bbb K\\)-linear und surjektiv.\nFür Untervektorräume \\(U_1,...,U_n\\) gilt: ??? SOrry verstehe ich nicht Lemma 4.4.6\nFür zwei Untervektorräume gilt, dass \\(U_1+U_2\\) als Kern alle Tupel hat die der Form \\((x,-x)\\) sind, sodass \\(x\\) in \\(U_1\\) und \\(U_2\\) ist.",
+    "section": "Satz (4.4.11.)",
+    "text": "Satz (4.4.11.)\n\nEs sei \\(V\\) ein endlichdimensionaler \\(\\Bbb K\\)-Vektorraum. Dann hat jeder Untervektorraum \\(U \\subseteq V\\) ein Vektorraumkomplement \\(W\\subseteq V\\). Es gilt:\n\\[dim(W) = dim(V)-dim(U).\\]",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.4 Direkte Summen und Komplemente",
-      "4.4 Direktes Produkt von Vektorräumen"
+      "4.4 Komplementäre Untervektorräume"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "text": "Siehe auch\n\n\nKomplementäre Untervektorräume",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.4 Direkte Summen und Komplemente",
-      "4.4 Direktes Produkt von Vektorräumen"
+      "4.4 Komplementäre Untervektorräume"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Summe von Untervektorräumen.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Summe von Untervektorräumen.html#definition",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#definition-4.4.7",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#definition-4.4.7",
     "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum und \\(U_1,...,U_n\\) Untervektorräume von \\(V\\). Es gilt, dass\n\\(U_1 + U_2 + ... + U_n\\) wieder ein Untervektorraum ist.",
+    "section": "Definition (4.4.7)",
+    "text": "Definition (4.4.7)\n\nEs sei \\(V\\) ein Vektorraum über \\(\\Bbb K\\) und \\(U_1,\\dots,U_n\\) Untervektorräume von \\(V\\). Dann sagt man, dass \\(V\\) eine Direkte Summe von den Untervektorräumen \\(U_1,\\dots,U_n\\) ist, wenn\n\\[V=\\bigoplus_{j=1}^n U_j = U_1\\oplus\\dots\\oplus U_n\\]\nbijektiv ist, also kein Vektor \\(v\\in V\\) durch zwei Summen formuliert werden können.",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.4 Direkte Summen und Komplemente",
-      "4.4 Summe von Untervektorräumen"
+      "4.4 Direkte Summe von Untervektorräumen"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Summe von Untervektorräumen.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Summe von Untervektorräumen.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#lemma-4.4.8",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#lemma-4.4.8",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Lemma (4.4.8)",
+    "text": "Lemma (4.4.8)\n\nIm Falle von genau zwei Untervektorräumen gilt:\n\\[V=U_1\\oplus U_2 \\iff V=U_1+U_2 \\ \\land \\ U_2 \\cap U_2 = {0}\\]",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.4 Direkte Summen und Komplemente",
+      "4.4 Direkte Summe von Untervektorräumen"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.4 Direkte Summen und Komplemente",
-      "4.4 Summe von Untervektorräumen"
+      "4.4 Direkte Summe von Untervektorräumen"
     ]
   },
   {
-    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Untergruppe.html#definition-3.2.5",
-    "href": "3. Algebraische Strukturen/3.2 Gruppen/Untergruppe.html#definition-3.2.5",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Schnitt von Untervektorräumen.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Schnitt von Untervektorräumen.html#definition",
     "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition (3.2.5)",
-    "text": "Definition (3.2.5)\n\nWenn \\((G,*)\\) eine Gruppe ist mit neutralem Element \\(e_G\\), und \\(H \\subseteq G\\) eine Teilmenge, dann ist \\((H,*)\\) eine Untergruppe von G, wenn:\n\n\\(e_G \\in H\\)\n\\(\\forall a,b\\in H_ a*b\\in H\\)\n\\(\\forall a\\in H: a^{-1}\\in H\\).\n\nSchwichtig aber, dass logischerweise die assoziativität etc für \\(H \\subseteq G\\) mit der Verknüpfung \\(*\\) wieder gilt, da \\(*\\) auf G ja auch assoziativ etc ist. Das ist für die späteren Sachen auch so schwichtig!",
+    "section": "Definition",
+    "text": "Definition\n\nSei \\(V\\) ein Vektorraum und \\(U_1,...,U_n\\) beliebige Untervektorräume von V. Es gilt, dass der Schnitt von beliebig vielen Untervektorräumen wieder ein Untervektorraum von \\(V\\) ist.\nFür Vereinigungen ist das im allgemeinen nicht der Fall",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.4 Direkte Summen und Komplemente",
+      "Schnitt von Untervektorräumen"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Schnitt von Untervektorräumen.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Schnitt von Untervektorräumen.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.4 Direkte Summen und Komplemente",
+      "Schnitt von Untervektorräumen"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#definition",
+    "href": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nEin Gruppenhomomorphismus ist genau dann injektiv, wenn sein Kern nur das neutrale Element enthält.",
     "crumbs": [
       "3. Algebraische Strukturen",
       "3.2 Gruppen",
-      "3.2 Untergruppe"
+      "3.2 Injektive Gruppenhomomorphismen"
     ]
   },
   {
-    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Untergruppe.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.2 Gruppen/Untergruppe.html#siehe-auch",
+    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#beweis",
+    "href": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#beweis",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Beweis",
+    "text": "Beweis\n\nSeien \\((G,*_H)\\) und \\((H,*_H)\\) zwei Beliebige Gruppen mit \\(\\varphi: G \\rightarrow H\\) ein Gruppenhomomorphismus.\n\nRichtung: Aus injektivität folgt \\(ker(\\varphi)= \\{e_G\\}\\).\n\nDa \\(\\varphi\\) ein Gruppenhomomorphismus ist gilt \\(\\varphi(e_G)=e_H\\). Wenn wir jetzt behaupten ein random \\(a\\in G\\) sei im Kern, dann müsste ja gelten \\(\\varphi(a)=e_H=\\varphi(e_G)\\). Tya, da \\(\\varphi\\) aber injektiv ist, folgt daraus, dass \\(a=e_G\\). Somit ist im Kern nur \\(e_G\\).\n\nRichtung: Aus \\(ker(\\varphi)= \\{e_G\\}\\) folg injektivität.\n\nSeien \\(a,b \\in G\\) derart, dass \\(\\varphi(a)=\\varphi(b)\\) gilt. Daraus muss man jetzt nur noch folgern, dass \\(a=b\\).\nAlso:\n\\[\\varphi(a*_Gb^{-1}) = \\varphi(a)*_H\\varphi(b^{-1})=\\varphi(b)*_H\\varphi(b^{-1})=\\varphi(b*_Gb^{-1}) = \\varphi(e_G) = e_H\\]\nDa der Kern nur aus \\(e_G\\) besteht und jetzt ja auch irgendwie \\(a*_Gb^{-1}\\) im Kern ist muss also zwingenderweise gelten, dass\n\\(a*_Gb^{-1}=e_G\\). Und da haben wirs fast, wenn wir jetzt b rechts ranmultiplizieren erhalten wir\n\\[a = b\\]\n\\(\\square\\)",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.2 Gruppen",
+      "3.2 Injektive Gruppenhomomorphismen"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "3. Algebraische Strukturen",
       "3.2 Gruppen",
-      "3.2 Untergruppe"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#definition-3.2.1",
-    "href": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#definition-3.2.1",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition (3.2.1)",
-    "text": "Definition (3.2.1)\n\nEin Monoid \\((G,*)\\) in dem jedes Element invertierbar ist, nennt man Gruppe. Das heißt, eine Gruppe ist ein Paar \\((G,*)\\) aus einer [Menge] G und einer [Abbildung] *, sodass:\n\n\\(*: G \\times G \\rightarrow G\\)\n\\(\\forall x,y,z\\in G: (x*y)*z=x*(y*z)\\)\n\\(\\exists e\\in G: x*e=x=e*x\\)\n\\(\\forall x\\in G: \\exists y\\in G: x*y=e=y*x\\)\n\nEine kommutative Gruppe nennt man auch eine abelsche Gruppe.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.2 Gruppen",
-      "3.2 Gruppe"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#lemma-einheitengruppe-3.2.2",
-    "href": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#lemma-einheitengruppe-3.2.2",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Lemma Einheitengruppe (3.2.2)",
-    "text": "Lemma Einheitengruppe (3.2.2)\n\nEs sei \\((S,*)\\) einfach ein random Monoid. Dann ist \\((S^x,*)\\) die Einheitengruppe von \\((S,*)\\). Man nimmt halt einfach nur alle invertierbaren Elemente von dem Monoid und dann ist es schon eine Gruppe yey.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.2 Gruppen",
-      "3.2 Gruppe"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#bemerkung",
-    "href": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#bemerkung",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Bemerkung",
-    "text": "Bemerkung\n\nIn einer Gruppe gilt folgende Kürzungsregel:\n\\[\\forall x,y,a\\in G: (a*x=a*y \\implies x=y)\\]",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.2 Gruppen",
-      "3.2 Gruppe"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nUntergruppe\nGruppenhomomorphismus\nRing\nVektorraum über K\nDie alternierende Gruppe\nPermutation und symetrische Gruppe",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.2 Gruppen",
-      "3.2 Gruppe"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#definition",
-    "href": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nBasic: man kann \\(\\sqrt{-1}\\) nicht berechnen, also definiert man die Zahl \\(i\\), so, dass \\(i^2=-1\\). Die Menge. Der Körper der komplexen Zahlen ist damit eine Körpererweiterung der reelen Zahlen mit i. Also sind auch alle linearkombinationen von i aus elementen aus den reelen Zahlen in der Körpererweiterung enthalten.\nJede Komplexe Zahl lässt sich eindeutig als \\(z = a+ bi\\) schreiben, man sagt dass \\(a\\) der Realteil und \\(b\\) der Imaginärteil ist.\nKomplexe Zahlen kann man gut geometrisch darstellen: die x-Achse ist dann der Realteil und die y-Achse der Imaginärteil.\nBei dieser Vorstellung gibt \\(\\vert z \\vert\\) den Abstand der komplexen Zahl \\(z\\) zum Ursprung an. Die komplexe Konjugation ist ein Körperautomorphismus von den Komplexen Zahlen.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.5 Der Körper der komplexen Zahlen",
-      "3.5 Der Körper der komplexen Zahlen"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#fundamentalsatz-der-algebra",
-    "href": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#fundamentalsatz-der-algebra",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Fundamentalsatz der Algebra",
-    "text": "Fundamentalsatz der Algebra\n\nJedes nicht konstante komplexe Polynom hat eine komplexe Nullstelle.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.5 Der Körper der komplexen Zahlen",
-      "3.5 Der Körper der komplexen Zahlen"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.5 Der Körper der komplexen Zahlen",
-      "3.5 Der Körper der komplexen Zahlen"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Unterring.html#definition",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Unterring.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nWenn \\((R,+,\\cdot)\\) ein Ring ist und \\(T \\subseteq R\\), dann ist \\((T,+,\\cdot)\\) ein Unterring, wenn\n\n\\(T\\) eine Untergruppe von \\((R,+)\\) ist\n\\(1_R\\in T\\)\n\\(\\forall a,b\\in T: a \\cdot b \\in T\\).",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "3.3 Unterring"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Unterring.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Unterring.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "3.3 Unterring"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#definition",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nEin Ring \\((R,+,\\cdot)\\) besteht aus einer Menge \\(R\\) auf der die Operationen ausgeführt werden, sowie zwei [binären Operationen]\n\\(+: R \\times R \\rightarrow R\\) und \\(\\cdot : R \\times R \\rightarrow R\\)\ndiese nennt man addition und Multiplikation und beide haben die folgenden Eigenschaften:\n\n\\(+\\) ist eine abelsche Gruppe\nund \\(\\cdot\\) ein Monoid\nund es gelten die Distributivgesetze von rechts und von Links.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "3.3 Ring"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#bemerkung",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#bemerkung",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Bemerkung",
-    "text": "Bemerkung\n\nEin Ring heißt kommutativ, wenn die Multiplikation kommutativ ist.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "3.3 Ring"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nUnterring\nRinghomomorphismus\nKörper",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "3.3 Ring"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#definition",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nWarum immer Primzahlen und Restklassen hä? Der Grund dafür ist die Nullteilerfreiheit von \\(\\Bbb{Z}\\setminus_p\\), wenn p Prim ist. Denn: es gibt keine \\(a,b\\in \\Bbb{Z}\\), sodass \\(a\\cdot b = p\\). Das ist kinda schwichtig, weil sonst multiplizieren wir vielleicht was in einem nicht-primzahl-restklassenring und am Ende erhalten wir null und ohje dann geht vielleicht was kaputt.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "Restkörper und Primzahlen"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#schlauer-satz",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#schlauer-satz",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Schlauer Satz",
-    "text": "Schlauer Satz\n\nFür endliche kommutative Ringe mit \\(1 \\not= 0\\) ist die eigenschaft ein Körper zu sein Äquivalent zu Nullteilerfreiheit.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "Restkörper und Primzahlen"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "Restkörper und Primzahlen"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#definition",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(m\\in \\Bbb{N}_0\\). Wir definieren dann mit\n\\[\\Bbb{Z}\\setminus m\\Bbb{Z} := \\Bbb{Z}\\setminus \\equiv_m\\]\nAlso ist in \\(\\Bbb{Z}\\setminus m\\Bbb{Z}\\) die Menge aller Äquivalenzklassen modulo m.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Äquivalenzklasse modulo m"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#satz",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#satz",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Satz",
-    "text": "Satz\n\nEs sei \\(m\\in \\Bbb{N}_0\\). Dann gibt es auf der Quotientenmenge \\(\\Bbb{Z}\\setminus m\\Bbb{Z}\\) genau eine Ringstruktur, sodass die Quotientenabbildung\n\\[q: \\Bbb{Z} \\rightarrow \\Bbb{Z}\\setminus m\\Bbb{Z}, x \\mapsto [x]_m\\]\nzu einem Ringhomomorpismus wird. Es gelten dann alle ultra Praktische und sehr sehr coole homomorphistischen Rechenregeln yey :)",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Äquivalenzklasse modulo m"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nRestkörper und Primzahlen",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Äquivalenzklasse modulo m"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#definition",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nFür \\(a,m\\in \\Bbb{Z}\\) sagt man m teilt a, wenn kein \\(k \\in \\Bbb{Z}\\) existiert, sodass \\(a = mk\\). Man schreibt\n\\[m\\vert a\\]",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Teilbarkeitsrelation"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#eigenschaften",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#eigenschaften",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Eigenschaften",
-    "text": "Eigenschaften\n\n\n\\(\\forall a\\in \\Bbb{Z}: 1 \\vert a\\)\n\\(\\forall a \\in \\mathbb{Z}: 0 \\vert a \\iff a=0\\)\n\\(\\forall a \\in \\mathbb{Z}:a \\vert a\\)\n\\(\\forall a,b,c \\in \\mathbb{Z}: (wenn \\ \\ a\\vert b \\ \\ und \\ \\ b\\vert c) \\implies a\\vert c\\)\n\\(\\forall a,b \\in \\mathbb{Z}:(a\\vert b \\ \\ und \\ \\ b\\vert a) \\iff \\vert a \\vert = \\vert b \\vert\\)",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Teilbarkeitsrelation"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nKongurenz Modulo m\nÄquivalenzklasse modulo m",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Teilbarkeitsrelation"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#definition-3.1.7",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#definition-3.1.7",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition (3.1.7)",
-    "text": "Definition (3.1.7)\n\nSei ein Monoid \\((M, *)\\) gegeben. Ein Element \\(x \\in M\\) heißt invertierbar bezüglich , wenn ein sogenanntes inverses* \\(x^{-1} \\in M\\) existiert, sodass \\(x * x^{-1} = e\\), wobei \\(e\\) das Neutrale elemt von \\(M\\) ist.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Invertierbarkeit"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#lemma-3.1.8",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#lemma-3.1.8",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Lemma (3.1.8)",
-    "text": "Lemma (3.1.8)\n\nWenn ein Inverses Element existiert so ist es eindeutig!",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Invertierbarkeit"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#lemma-3.1.10",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#lemma-3.1.10",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Lemma (3.1.10)",
-    "text": "Lemma (3.1.10)\n\nSei \\((S, *)\\) ein Monoid. Wenn \\(s,y\\in S\\) bezüglich * invertierbar sind, so ist auch deren Verknüpfung \\(s * y \\in S\\) invertierbar.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Invertierbarkeit"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nInvertierbare Matrizen",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Invertierbarkeit"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Binäre Operation.html#definition-3.1.1",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Binäre Operation.html#definition-3.1.1",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition (3.1.1)",
-    "text": "Definition (3.1.1)\n\nEs sei \\(S\\) eine Menge. Eine [[Abbildung]]\n\\(*: S \\times S \\rightarrow S\\)\nnennt man Binäre Verknüpfung (oder zweistellige Operation, binäre Operation, zweistellige Verknüpfung)",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Binäre Operation"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Binäre Operation.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Binäre Operation.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nCayley-Tafel\nHalbgruppe",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Binäre Operation"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#definition-3.1.4",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#definition-3.1.4",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition (3.1.4)",
-    "text": "Definition (3.1.4)\n\nSei \\((S,*)\\) eine Halbgruppe. \\(e \\in S\\) heißt ein neutrales Element, wenn gilt:\n\\[\\forall x \\in s: e * x = x = x * e\\]\nWenn eine Halbgruppe ein Neutrales Element besitzt ist diese Halbgruppe ein Monoid.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Monoid"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#lemma-3.1.5",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#lemma-3.1.5",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Lemma (3.1.5)",
-    "text": "Lemma (3.1.5)\n\nEin neutrales Element stets ist eindeutig! Beweis einfach durch Widerspruchssannahme.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Monoid"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nInvertierbarkeit\nGruppe\nRing",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Monoid"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#definition",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nWenn eine [Binäre Verknüfung] endlich ist, so kann Sie durch eine Cayley-Tafel beschrieben werden.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Cayley Tafel"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#beispiel",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#beispiel",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Beispiel",
-    "text": "Beispiel\n\nSei eine Menge \\(D := \\{i,s1,s2,s3,g,u\\}\\) gegeben. Dann kann eine Binäre Operation \\(\\star : D \\times D \\rightarrow D\\) so aussehen:",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Cayley Tafel"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Cayley Tafel"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Halbgruppe.html#definition-3.1.2",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Halbgruppe.html#definition-3.1.2",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition (3.1.2)",
-    "text": "Definition (3.1.2)\n\n\nSei \\(S\\) eine Menge. Eine [Binäre Verknüfung] \\(*: S \\times S \\rightarrow S\\) heißt assoziativ, wenn\n\n\\[\\forall x, y,z \\in S:(x* y)* z= x *(y* z)\\]\n\nEine Halbgruppe ist ein Paar \\((S, *)\\) bestehehend aus einer Menge \\(S\\) und einer assoziativen binären Verknüpfung auf S\nEine kommutative Halbgruppe ist eine Halbgruppe, die zusätzlich auch kommutativ ist lol",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Halbgruppe"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Halbgruppe.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Halbgruppe.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nMonoid",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.1 Halbgruppen",
-      "3.1 Halbgruppe"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Kongurenz Modulo m.html#definition",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Kongurenz Modulo m.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nZwei Zahlen \\(a,b\\in \\Bbb{Z}\\) sind kongurent Modulo m (\\(m\\in \\Bbb{Z}\\)), wenn:\n\\[m\\vert (a-b)\\]\nWir schreiben dafür auch\n\\(a \\equiv_m b\\) bzw \\(a \\equiv b \\ (mod \\ \\ m)\\)",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Kongurenz Modulo m"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Kongurenz Modulo m.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Kongurenz Modulo m.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nKongurenz Modulo m",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Kongurenz Modulo m"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#satz-3.4.17",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#satz-3.4.17",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Satz (3.4.17)",
-    "text": "Satz (3.4.17)\n\nJede natürliche Zahl \\(n \\in \\Bbb{N}\\) lässt sich als (endliches) Produkt von Primzahlen schreiben. Die Darstellung ist eindeutig bis auf Umordnung der Primfaktoren.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Fundamentalsatz der Arithmetik und Lemma von Euklid"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#lemma-von-euklid",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#lemma-von-euklid",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Lemma von Euklid",
-    "text": "Lemma von Euklid\n\nEs sei p eine Primzahl. Dann gilt für alle \\(a,b\\in \\Bbb{Z}\\):\n\\(p\\vert (ab) \\implies (p\\vert a) \\ \\ oder \\ \\ (p\\vert b)\\).",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Fundamentalsatz der Arithmetik und Lemma von Euklid"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nRestkörper und Primzahlen",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Fundamentalsatz der Arithmetik und Lemma von Euklid"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Quotientenmenge und Quotientenabbildungen.html#definition-3.4.10",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Quotientenmenge und Quotientenabbildungen.html#definition-3.4.10",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition (3.4.10)",
-    "text": "Definition (3.4.10)\n\nEs sei \\(\\sim\\) eine Äquivalenzrelation. \\([x]_\\sim\\) ist die Menge aller Elemente die in der Relation \\(\\sim\\) Äquivalent zueinander sind.\nEs gibt aber dann eine Menge \\(X\\setminus_\\sim\\) (genannt Quotienten oder Faktormenge) und eine Quotientenabbildung \\(q: X \\rightarrow X\\setminus_\\sim\\), sodass \\(\\forall x,y\\in X: x \\sim y \\iff q(x)=q(y)\\).",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Quotientenmenge und Quotientenabbildungen"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Quotientenmenge und Quotientenabbildungen.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Quotientenmenge und Quotientenabbildungen.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nÄquivalenzklasse modulo m",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
-      "3.4 Quotientenmenge und Quotientenabbildungen"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "",
-    "text": "yTARGET DECK\nLineare Algebra I\n3.3 Körper\n–",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "Definition"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#definition",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nEin Körper ist ein Ring \\((K,+,\\cdot)\\) aber mit extra spice:\n\nDie Einheitengruppe ist gegeben durch \\(K^x=K \\setminus \\{0_k\\}\\)\nDie Multiplikation ist kommutativ\n\nEin Element ist also invertierbar, wenn es nicht \\(0_K\\) ist.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "Definition"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#bemerkung",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#bemerkung",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Bemerkung",
-    "text": "Bemerkung\n\nIn einem Körper gelten alle Grundrechenarten aus der Schule, wie binomische Formeln etc.\nEin Körper ist zudem Nullteilerfrei und \\(0_K\\) ist nicht (multiplikativ) invertierbar.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "Definition"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nDer Körper der komplexen Zahlen\nRestkörper und Primzahlen\nVektorraum über K\nAlgebren",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "Definition"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#definition-3.3.8",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#definition-3.3.8",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition (3.3.8)",
-    "text": "Definition (3.3.8)\n\nEin Ringhomomorphismus ist eine Abbildung \\(\\varphi: R \\rightarrow H\\) zwischen zwei Ringen \\((R,+_R, \\cdot_R)\\) und \\((H,+_H,\\cdot_H)\\) mit folgenden Eigenschaften:\n\n\\(\\forall a,b\\in R:\\varphi(a+_Rb)=\\varphi(a)+_H\\varphi(b)\\)\n\\(\\forall a,b\\in R: \\varphi(a\\cdot_Rb)=\\varphi(a)\\cdot_H\\varphi(b)\\)\n\\(\\varphi(1_R)=1_H\\)\n\nIsomorphismus sind genau wie bei Gruppen.",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "3.3 Ringhomomorphismus"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#lemma-3.3.9",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#lemma-3.3.9",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Lemma (3.3.9)",
-    "text": "Lemma (3.3.9)\n\n\\((R,+,\\cdot)\\) und \\((T,+,\\cdot)\\) sind beides Ringe und \\(\\varphi: R \\rightarrow T\\) ein Ringhomomorphismus. Dann\n\nWenn \\(U \\subseteq R\\) ein Unterring von \\((R,+,\\cdot)\\) ist, ist dann \\(\\varphi(U)\\) ein Unterring und \\(T\\) und insbesondere ist \\(Bild(\\varphi)=\\varphi(R)\\).",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "3.3 Ringhomomorphismus"
-    ]
-  },
-  {
-    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nÄquivalenzklasse modulo m",
-    "crumbs": [
-      "3. Algebraische Strukturen",
-      "3.3 Ringe und Körper",
-      "3.3 Ringhomomorphismus"
+      "3.2 Injektive Gruppenhomomorphismen"
     ]
   },
   {
@@ -1542,270 +968,856 @@
     ]
   },
   {
-    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#definition",
-    "href": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#definition",
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#definition-3.3.8",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#definition-3.3.8",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition (3.3.8)",
+    "text": "Definition (3.3.8)\n\nEin Ringhomomorphismus ist eine Abbildung \\(\\varphi: R \\rightarrow H\\) zwischen zwei Ringen \\((R,+_R, \\cdot_R)\\) und \\((H,+_H,\\cdot_H)\\) mit folgenden Eigenschaften:\n\n\\(\\forall a,b\\in R:\\varphi(a+_Rb)=\\varphi(a)+_H\\varphi(b)\\)\n\\(\\forall a,b\\in R: \\varphi(a\\cdot_Rb)=\\varphi(a)\\cdot_H\\varphi(b)\\)\n\\(\\varphi(1_R)=1_H\\)\n\nIsomorphismus sind genau wie bei Gruppen.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Ringhomomorphismus"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#lemma-3.3.9",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#lemma-3.3.9",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Lemma (3.3.9)",
+    "text": "Lemma (3.3.9)\n\n\\((R,+,\\cdot)\\) und \\((T,+,\\cdot)\\) sind beides Ringe und \\(\\varphi: R \\rightarrow T\\) ein Ringhomomorphismus. Dann\n\nWenn \\(U \\subseteq R\\) ein Unterring von \\((R,+,\\cdot)\\) ist, ist dann \\(\\varphi(U)\\) ein Unterring und \\(T\\) und insbesondere ist \\(Bild(\\varphi)=\\varphi(R)\\).",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Ringhomomorphismus"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nÄquivalenzklasse modulo m",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Ringhomomorphismus"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#definition",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#definition",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Definition",
-    "text": "Definition\n\nEin Gruppenhomomorphismus ist genau dann injektiv, wenn sein Kern nur das neutrale Element enthält.",
+    "text": "Definition\n\nEin Körper ist ein Ring \\((K,+,\\cdot)\\) aber mit extra spice:\n\nDie Einheitengruppe ist gegeben durch \\(K^x=K \\setminus \\{0_k\\}\\)\nDie Multiplikation ist kommutativ\n\nEin Element ist also invertierbar, wenn es nicht \\(0_K\\) ist.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Körper"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#bemerkung",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#bemerkung",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Bemerkung",
+    "text": "Bemerkung\n\nIn einem Körper gelten alle Grundrechenarten aus der Schule, wie binomische Formeln etc.\nEin Körper ist zudem Nullteilerfrei und \\(0_K\\) ist nicht (multiplikativ) invertierbar.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Körper"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nDer Körper der komplexen Zahlen\nRestkörper und Primzahlen\nVektorraum über K\nAlgebren",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Körper"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Quotientenmenge und Quotientenabbildungen.html#definition-3.4.10",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Quotientenmenge und Quotientenabbildungen.html#definition-3.4.10",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition (3.4.10)",
+    "text": "Definition (3.4.10)\n\nEs sei \\(\\sim\\) eine Äquivalenzrelation. \\([x]_\\sim\\) ist die Menge aller Elemente die in der Relation \\(\\sim\\) Äquivalent zueinander sind.\nEs gibt aber dann eine Menge \\(X\\setminus_\\sim\\) (genannt Quotienten oder Faktormenge) und eine Quotientenabbildung \\(q: X \\rightarrow X\\setminus_\\sim\\), sodass \\(\\forall x,y\\in X: x \\sim y \\iff q(x)=q(y)\\).",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Quotientenmenge und Quotientenabbildungen"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Quotientenmenge und Quotientenabbildungen.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Quotientenmenge und Quotientenabbildungen.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nÄquivalenzklasse modulo m",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Quotientenmenge und Quotientenabbildungen"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#satz-3.4.17",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#satz-3.4.17",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Satz (3.4.17)",
+    "text": "Satz (3.4.17)\n\nJede natürliche Zahl \\(n \\in \\Bbb{N}\\) lässt sich als (endliches) Produkt von Primzahlen schreiben. Die Darstellung ist eindeutig bis auf Umordnung der Primfaktoren.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Fundamentalsatz der Arithmetik und Lemma von Euklid"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#lemma-von-euklid",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#lemma-von-euklid",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Lemma von Euklid",
+    "text": "Lemma von Euklid\n\nEs sei p eine Primzahl. Dann gilt für alle \\(a,b\\in \\Bbb{Z}\\):\n\\(p\\vert (ab) \\implies (p\\vert a) \\ \\ oder \\ \\ (p\\vert b)\\).",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Fundamentalsatz der Arithmetik und Lemma von Euklid"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nRestkörper und Primzahlen",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Fundamentalsatz der Arithmetik und Lemma von Euklid"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Kongurenz Modulo m.html#definition",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Kongurenz Modulo m.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nZwei Zahlen \\(a,b\\in \\Bbb{Z}\\) sind kongurent Modulo m (\\(m\\in \\Bbb{Z}\\)), wenn:\n\\[m\\vert (a-b)\\]\nWir schreiben dafür auch\n\\(a \\equiv_m b\\) bzw \\(a \\equiv b \\ (mod \\ \\ m)\\)",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Kongurenz Modulo m"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Kongurenz Modulo m.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Kongurenz Modulo m.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nKongurenz Modulo m",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Kongurenz Modulo m"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Halbgruppe.html#definition-3.1.2",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Halbgruppe.html#definition-3.1.2",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition (3.1.2)",
+    "text": "Definition (3.1.2)\n\n\nSei \\(S\\) eine Menge. Eine [Binäre Verknüfung] \\(*: S \\times S \\rightarrow S\\) heißt assoziativ, wenn\n\n\\[\\forall x, y,z \\in S:(x* y)* z= x *(y* z)\\]\n\nEine Halbgruppe ist ein Paar \\((S, *)\\) bestehehend aus einer Menge \\(S\\) und einer assoziativen binären Verknüpfung auf S\nEine kommutative Halbgruppe ist eine Halbgruppe, die zusätzlich auch kommutativ ist lol",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Halbgruppe"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Halbgruppe.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Halbgruppe.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nMonoid",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Halbgruppe"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#definition",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nWenn eine [Binäre Verknüfung] endlich ist, so kann Sie durch eine Cayley-Tafel beschrieben werden.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Cayley Tafel"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#beispiel",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#beispiel",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Beispiel",
+    "text": "Beispiel\n\nSei eine Menge \\(D := \\{i,s1,s2,s3,g,u\\}\\) gegeben. Dann kann eine Binäre Operation \\(\\star : D \\times D \\rightarrow D\\) so aussehen:",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Cayley Tafel"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Cayley Tafel"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#definition-3.1.4",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#definition-3.1.4",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition (3.1.4)",
+    "text": "Definition (3.1.4)\n\nSei \\((S,*)\\) eine Halbgruppe. \\(e \\in S\\) heißt ein neutrales Element, wenn gilt:\n\\[\\forall x \\in s: e * x = x = x * e\\]\nWenn eine Halbgruppe ein Neutrales Element besitzt ist diese Halbgruppe ein Monoid.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Monoid"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#lemma-3.1.5",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#lemma-3.1.5",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Lemma (3.1.5)",
+    "text": "Lemma (3.1.5)\n\nEin neutrales Element stets ist eindeutig! Beweis einfach durch Widerspruchssannahme.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Monoid"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nInvertierbarkeit\nGruppe\nRing",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Monoid"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Binäre Operation.html#definition-3.1.1",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Binäre Operation.html#definition-3.1.1",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition (3.1.1)",
+    "text": "Definition (3.1.1)\n\nEs sei \\(S\\) eine Menge. Eine [[Abbildung]]\n\\(*: S \\times S \\rightarrow S\\)\nnennt man Binäre Verknüpfung (oder zweistellige Operation, binäre Operation, zweistellige Verknüpfung)",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Binäre Operation"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Binäre Operation.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Binäre Operation.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nCayley-Tafel\nHalbgruppe",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Binäre Operation"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#definition-3.1.7",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#definition-3.1.7",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition (3.1.7)",
+    "text": "Definition (3.1.7)\n\nSei ein Monoid \\((M, *)\\) gegeben. Ein Element \\(x \\in M\\) heißt invertierbar bezüglich , wenn ein sogenanntes inverses* \\(x^{-1} \\in M\\) existiert, sodass \\(x * x^{-1} = e\\), wobei \\(e\\) das Neutrale elemt von \\(M\\) ist.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Invertierbarkeit"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#lemma-3.1.8",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#lemma-3.1.8",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Lemma (3.1.8)",
+    "text": "Lemma (3.1.8)\n\nWenn ein Inverses Element existiert so ist es eindeutig!",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Invertierbarkeit"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#lemma-3.1.10",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#lemma-3.1.10",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Lemma (3.1.10)",
+    "text": "Lemma (3.1.10)\n\nSei \\((S, *)\\) ein Monoid. Wenn \\(s,y\\in S\\) bezüglich * invertierbar sind, so ist auch deren Verknüpfung \\(s * y \\in S\\) invertierbar.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Invertierbarkeit"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nInvertierbare Matrizen",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.1 Halbgruppen",
+      "3.1 Invertierbarkeit"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#definition",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nFür \\(a,m\\in \\Bbb{Z}\\) sagt man m teilt a, wenn kein \\(k \\in \\Bbb{Z}\\) existiert, sodass \\(a = mk\\). Man schreibt\n\\[m\\vert a\\]",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Teilbarkeitsrelation"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#eigenschaften",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#eigenschaften",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Eigenschaften",
+    "text": "Eigenschaften\n\n\n\\(\\forall a\\in \\Bbb{Z}: 1 \\vert a\\)\n\\(\\forall a \\in \\mathbb{Z}: 0 \\vert a \\iff a=0\\)\n\\(\\forall a \\in \\mathbb{Z}:a \\vert a\\)\n\\(\\forall a,b,c \\in \\mathbb{Z}: (wenn \\ \\ a\\vert b \\ \\ und \\ \\ b\\vert c) \\implies a\\vert c\\)\n\\(\\forall a,b \\in \\mathbb{Z}:(a\\vert b \\ \\ und \\ \\ b\\vert a) \\iff \\vert a \\vert = \\vert b \\vert\\)",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Teilbarkeitsrelation"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nKongurenz Modulo m\nÄquivalenzklasse modulo m",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Teilbarkeitsrelation"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#definition",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(m\\in \\Bbb{N}_0\\). Wir definieren dann mit\n\\[\\Bbb{Z}\\setminus m\\Bbb{Z} := \\Bbb{Z}\\setminus \\equiv_m\\]\nAlso ist in \\(\\Bbb{Z}\\setminus m\\Bbb{Z}\\) die Menge aller Äquivalenzklassen modulo m.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Äquivalenzklasse modulo m"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#satz",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#satz",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Satz",
+    "text": "Satz\n\nEs sei \\(m\\in \\Bbb{N}_0\\). Dann gibt es auf der Quotientenmenge \\(\\Bbb{Z}\\setminus m\\Bbb{Z}\\) genau eine Ringstruktur, sodass die Quotientenabbildung\n\\[q: \\Bbb{Z} \\rightarrow \\Bbb{Z}\\setminus m\\Bbb{Z}, x \\mapsto [x]_m\\]\nzu einem Ringhomomorpismus wird. Es gelten dann alle ultra Praktische und sehr sehr coole homomorphistischen Rechenregeln yey :)",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Äquivalenzklasse modulo m"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nRestkörper und Primzahlen",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "3.4 Äquivalenzklasse modulo m"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#definition",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nWarum immer Primzahlen und Restklassen hä? Der Grund dafür ist die Nullteilerfreiheit von \\(\\Bbb{Z}\\setminus_p\\), wenn p Prim ist. Denn: es gibt keine \\(a,b\\in \\Bbb{Z}\\), sodass \\(a\\cdot b = p\\). Das ist kinda schwichtig, weil sonst multiplizieren wir vielleicht was in einem nicht-primzahl-restklassenring und am Ende erhalten wir null und ohje dann geht vielleicht was kaputt.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "Restkörper und Primzahlen"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#schlauer-satz",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#schlauer-satz",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Schlauer Satz",
+    "text": "Schlauer Satz\n\nFür endliche kommutative Ringe mit \\(1 \\not= 0\\) ist die eigenschaft ein Körper zu sein Äquivalent zu Nullteilerfreiheit.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "Restkörper und Primzahlen"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume",
+      "Restkörper und Primzahlen"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#definition",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nEin Ring \\((R,+,\\cdot)\\) besteht aus einer Menge \\(R\\) auf der die Operationen ausgeführt werden, sowie zwei [binären Operationen]\n\\(+: R \\times R \\rightarrow R\\) und \\(\\cdot : R \\times R \\rightarrow R\\)\ndiese nennt man addition und Multiplikation und beide haben die folgenden Eigenschaften:\n\n\\(+\\) ist eine abelsche Gruppe\nund \\(\\cdot\\) ein Monoid\nund es gelten die Distributivgesetze von rechts und von Links.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Ring"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#bemerkung",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#bemerkung",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Bemerkung",
+    "text": "Bemerkung\n\nEin Ring heißt kommutativ, wenn die Multiplikation kommutativ ist.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Ring"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nUnterring\nRinghomomorphismus\nKörper",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Ring"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Unterring.html#definition",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Unterring.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nWenn \\((R,+,\\cdot)\\) ein Ring ist und \\(T \\subseteq R\\), dann ist \\((T,+,\\cdot)\\) ein Unterring, wenn\n\n\\(T\\) eine Untergruppe von \\((R,+)\\) ist\n\\(1_R\\in T\\)\n\\(\\forall a,b\\in T: a \\cdot b \\in T\\).",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Unterring"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.3 Ringe und Körper/Unterring.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.3 Ringe und Körper/Unterring.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.3 Ringe und Körper",
+      "3.3 Unterring"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#definition",
+    "href": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nBasic: man kann \\(\\sqrt{-1}\\) nicht berechnen, also definiert man die Zahl \\(i\\), so, dass \\(i^2=-1\\). Die Menge. Der Körper der komplexen Zahlen ist damit eine Körpererweiterung der reelen Zahlen mit i. Also sind auch alle linearkombinationen von i aus elementen aus den reelen Zahlen in der Körpererweiterung enthalten.\nJede Komplexe Zahl lässt sich eindeutig als \\(z = a+ bi\\) schreiben, man sagt dass \\(a\\) der Realteil und \\(b\\) der Imaginärteil ist.\nKomplexe Zahlen kann man gut geometrisch darstellen: die x-Achse ist dann der Realteil und die y-Achse der Imaginärteil.\nBei dieser Vorstellung gibt \\(\\vert z \\vert\\) den Abstand der komplexen Zahl \\(z\\) zum Ursprung an. Die komplexe Konjugation ist ein Körperautomorphismus von den Komplexen Zahlen.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.5 Der Körper der komplexen Zahlen",
+      "3.5 Der Körper der komplexen Zahlen"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#fundamentalsatz-der-algebra",
+    "href": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#fundamentalsatz-der-algebra",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Fundamentalsatz der Algebra",
+    "text": "Fundamentalsatz der Algebra\n\nJedes nicht konstante komplexe Polynom hat eine komplexe Nullstelle.",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.5 Der Körper der komplexen Zahlen",
+      "3.5 Der Körper der komplexen Zahlen"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.5 Der Körper der komplexen Zahlen",
+      "3.5 Der Körper der komplexen Zahlen"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#definition-3.2.1",
+    "href": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#definition-3.2.1",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition (3.2.1)",
+    "text": "Definition (3.2.1)\n\nEin Monoid \\((G,*)\\) in dem jedes Element invertierbar ist, nennt man Gruppe. Das heißt, eine Gruppe ist ein Paar \\((G,*)\\) aus einer [Menge] G und einer [Abbildung] *, sodass:\n\n\\(*: G \\times G \\rightarrow G\\)\n\\(\\forall x,y,z\\in G: (x*y)*z=x*(y*z)\\)\n\\(\\exists e\\in G: x*e=x=e*x\\)\n\\(\\forall x\\in G: \\exists y\\in G: x*y=e=y*x\\)\n\nEine kommutative Gruppe nennt man auch eine abelsche Gruppe.",
     "crumbs": [
       "3. Algebraische Strukturen",
       "3.2 Gruppen",
-      "3.2 Injektive Gruppenhomomorphismen"
+      "3.2 Gruppe"
     ]
   },
   {
-    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#beweis",
-    "href": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#beweis",
+    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#lemma-einheitengruppe-3.2.2",
+    "href": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#lemma-einheitengruppe-3.2.2",
     "title": "Über das wissenschaftliche Schreiben",
-    "section": "Beweis",
-    "text": "Beweis\n\nSeien \\((G,*_H)\\) und \\((H,*_H)\\) zwei Beliebige Gruppen mit \\(\\varphi: G \\rightarrow H\\) ein Gruppenhomomorphismus.\n\nRichtung: Aus injektivität folgt \\(ker(\\varphi)= \\{e_G\\}\\).\n\nDa \\(\\varphi\\) ein Gruppenhomomorphismus ist gilt \\(\\varphi(e_G)=e_H\\). Wenn wir jetzt behaupten ein random \\(a\\in G\\) sei im Kern, dann müsste ja gelten \\(\\varphi(a)=e_H=\\varphi(e_G)\\). Tya, da \\(\\varphi\\) aber injektiv ist, folgt daraus, dass \\(a=e_G\\). Somit ist im Kern nur \\(e_G\\).\n\nRichtung: Aus \\(ker(\\varphi)= \\{e_G\\}\\) folg injektivität.\n\nSeien \\(a,b \\in G\\) derart, dass \\(\\varphi(a)=\\varphi(b)\\) gilt. Daraus muss man jetzt nur noch folgern, dass \\(a=b\\).\nAlso:\n\\[\\varphi(a*_Gb^{-1}) = \\varphi(a)*_H\\varphi(b^{-1})=\\varphi(b)*_H\\varphi(b^{-1})=\\varphi(b*_Gb^{-1}) = \\varphi(e_G) = e_H\\]\nDa der Kern nur aus \\(e_G\\) besteht und jetzt ja auch irgendwie \\(a*_Gb^{-1}\\) im Kern ist muss also zwingenderweise gelten, dass\n\\(a*_Gb^{-1}=e_G\\). Und da haben wirs fast, wenn wir jetzt b rechts ranmultiplizieren erhalten wir\n\\[a = b\\]\n\\(\\square\\)",
+    "section": "Lemma Einheitengruppe (3.2.2)",
+    "text": "Lemma Einheitengruppe (3.2.2)\n\nEs sei \\((S,*)\\) einfach ein random Monoid. Dann ist \\((S^x,*)\\) die Einheitengruppe von \\((S,*)\\). Man nimmt halt einfach nur alle invertierbaren Elemente von dem Monoid und dann ist es schon eine Gruppe yey.",
     "crumbs": [
       "3. Algebraische Strukturen",
       "3.2 Gruppen",
-      "3.2 Injektive Gruppenhomomorphismen"
+      "3.2 Gruppe"
     ]
   },
   {
-    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#siehe-auch",
-    "href": "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.html#siehe-auch",
+    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#bemerkung",
+    "href": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#bemerkung",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Bemerkung",
+    "text": "Bemerkung\n\nIn einer Gruppe gilt folgende Kürzungsregel:\n\\[\\forall x,y,a\\in G: (a*x=a*y \\implies x=y)\\]",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.2 Gruppen",
+      "3.2 Gruppe"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nUntergruppe\nGruppenhomomorphismus\nRing\nVektorraum über K\nDie alternierende Gruppe\nPermutation und symetrische Gruppe",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.2 Gruppen",
+      "3.2 Gruppe"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Untergruppe.html#definition-3.2.5",
+    "href": "3. Algebraische Strukturen/3.2 Gruppen/Untergruppe.html#definition-3.2.5",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition (3.2.5)",
+    "text": "Definition (3.2.5)\n\nWenn \\((G,*)\\) eine Gruppe ist mit neutralem Element \\(e_G\\), und \\(H \\subseteq G\\) eine Teilmenge, dann ist \\((H,*)\\) eine Untergruppe von G, wenn:\n\n\\(e_G \\in H\\)\n\\(\\forall a,b\\in H_ a*b\\in H\\)\n\\(\\forall a\\in H: a^{-1}\\in H\\).\n\nSchwichtig aber, dass logischerweise die assoziativität etc für \\(H \\subseteq G\\) mit der Verknüpfung \\(*\\) wieder gilt, da \\(*\\) auf G ja auch assoziativ etc ist. Das ist für die späteren Sachen auch so schwichtig!",
+    "crumbs": [
+      "3. Algebraische Strukturen",
+      "3.2 Gruppen",
+      "3.2 Untergruppe"
+    ]
+  },
+  {
+    "objectID": "3. Algebraische Strukturen/3.2 Gruppen/Untergruppe.html#siehe-auch",
+    "href": "3. Algebraische Strukturen/3.2 Gruppen/Untergruppe.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "3. Algebraische Strukturen",
       "3.2 Gruppen",
-      "3.2 Injektive Gruppenhomomorphismen"
+      "3.2 Untergruppe"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Schnitt von Untervektorräumen.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Schnitt von Untervektorräumen.html#definition",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Summe von Untervektorräumen.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Summe von Untervektorräumen.html#definition",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Definition",
-    "text": "Definition\n\nSei \\(V\\) ein Vektorraum und \\(U_1,...,U_n\\) beliebige Untervektorräume von V. Es gilt, dass der Schnitt von beliebig vielen Untervektorräumen wieder ein Untervektorraum von \\(V\\) ist.\nFür Vereinigungen ist das im allgemeinen nicht der Fall",
+    "text": "Definition\n\nEs sei \\(V\\) ein Vektorraum und \\(U_1,...,U_n\\) Untervektorräume von \\(V\\). Es gilt, dass\n\\(U_1 + U_2 + ... + U_n\\) wieder ein Untervektorraum ist.",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.4 Direkte Summen und Komplemente",
-      "Schnitt von Untervektorräumen"
+      "4.4 Summe von Untervektorräumen"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Schnitt von Untervektorräumen.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Schnitt von Untervektorräumen.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Summe von Untervektorräumen.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Summe von Untervektorräumen.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.4 Direkte Summen und Komplemente",
-      "Schnitt von Untervektorräumen"
+      "4.4 Summe von Untervektorräumen"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#definition-4.4.7",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#definition-4.4.7",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#definition",
     "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition (4.4.7)",
-    "text": "Definition (4.4.7)\n\nEs sei \\(V\\) ein Vektorraum über \\(\\Bbb K\\) und \\(U_1,\\dots,U_n\\) Untervektorräume von \\(V\\). Dann sagt man, dass \\(V\\) eine Direkte Summe von den Untervektorräumen \\(U_1,\\dots,U_n\\) ist, wenn\n\\[V=\\bigoplus_{j=1}^n U_j = U_1\\oplus\\dots\\oplus U_n\\]\nbijektiv ist, also kein Vektor \\(v\\in V\\) durch zwei Summen formuliert werden können.",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(n\\in \\Bbb N_0\\) und es seien \\(V_1,...,V_n\\) ganz viele Vektorräume über demselben Grundkörper \\(\\Bbb K\\).\nDann definieren wir die Addition als:\n\\(+ :(V_1\\times...\\times V_n)\\times(V_1\\times...\\times V_n) \\rightarrow (V_1\\times...\\times V_n),\\)\n\\((v_1,...,v_n) + (w_1,...,w_n):= (v_1+ w_1,...,v_n +w_n)\\)\nund die Skalare Multiplikation als\n\\(\\lambda \\cdot(v_1,...,v_n) :=(\\lambda\\cdot v_1,...,\\lambda\\cdot v_n)\\)\nUnd ohh \\((V_1\\times...\\times V_n)\\) wird selber wieder zu einem Vektorraum unter \\(+\\) und der Skalaren Multiplikation.",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.4 Direkte Summen und Komplemente",
-      "4.4 Direkte Summe von Untervektorräumen"
+      "4.4 Direktes Produkt von Vektorräumen"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#lemma-4.4.8",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#lemma-4.4.8",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#lemma",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#lemma",
     "title": "Über das wissenschaftliche Schreiben",
-    "section": "Lemma (4.4.8)",
-    "text": "Lemma (4.4.8)\n\nIm Falle von genau zwei Untervektorräumen gilt:\n\\[V=U_1\\oplus U_2 \\iff V=U_1+U_2 \\ \\land \\ U_2 \\cap U_2 = {0}\\]",
+    "section": "Lemma",
+    "text": "Lemma\n\n\nDie Additionsabbildung \\(+\\) ist \\(\\Bbb K\\)-linear und surjektiv.\nFür Untervektorräume \\(U_1,...,U_n\\) gilt: ??? SOrry verstehe ich nicht Lemma 4.4.6\nFür zwei Untervektorräume gilt, dass \\(U_1+U_2\\) als Kern alle Tupel hat die der Form \\((x,-x)\\) sind, sodass \\(x\\) in \\(U_1\\) und \\(U_2\\) ist.",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.4 Direkte Summen und Komplemente",
-      "4.4 Direkte Summe von Untervektorräumen"
+      "4.4 Direktes Produkt von Vektorräumen"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.4 Direkte Summen und Komplemente",
-      "4.4 Direkte Summe von Untervektorräumen"
+      "4.4 Direktes Produkt von Vektorräumen"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#definition",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum.html#definition",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Definition",
-    "text": "Definition\n\nZwei Untervektorräume \\(U,W\\) von \\(V\\) sind komplementär zueinander, wenn \\(U \\oplus W = V\\), also sich jeder Vektor sich eindeutig und nicht mehrdeutig als Summe von \\(u\\in U\\) und \\(w\\in W\\) schreiben lässt.",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.4 Direkte Summen und Komplemente",
-      "4.4 Komplementäre Untervektorräume"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#satz-4.4.11.",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#satz-4.4.11.",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Satz (4.4.11.)",
-    "text": "Satz (4.4.11.)\n\nEs sei \\(V\\) ein endlichdimensionaler \\(\\Bbb K\\)-Vektorraum. Dann hat jeder Untervektorraum \\(U \\subseteq V\\) ein Vektorraumkomplement \\(W\\subseteq V\\). Es gilt:\n\\[dim(W) = dim(V)-dim(U).\\]",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.4 Direkte Summen und Komplemente",
-      "4.4 Komplementäre Untervektorräume"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nKomplementäre Untervektorräume",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.4 Direkte Summen und Komplemente",
-      "4.4 Komplementäre Untervektorräume"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Vektorraum über K.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Vektorraum über K.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nEs sei \\(\\Bbb{K}\\) ein Körper. Ein \\(\\Bbb{K}\\)-Vektorraum \\((V,+,\\cdot)\\) ist eine Menge \\(V\\) zusammen mit zwei Operationen \\(+\\) (Addition) und \\(\\cdot\\) (Skalare Multiplikation), die folgendes erfüllen:\n\n\\((V,+)\\) ist eine abelsche Gruppe\n\\(\\forall \\lambda\\in\\Bbb{K}, v,w\\in V: \\lambda \\cdot (v+w) = \\lambda \\cdot v + \\lambda \\cdot w\\)\n\\(\\forall \\lambda, \\micro \\in\\Bbb{K}, v,w\\in V: (\\lambda + \\micro) \\cdot v = \\lambda \\cdot v + \\micro \\cdot v\\)\n\\(\\forall \\lambda, \\micro \\in\\Bbb{K}, v,w\\in V: (\\lambda \\cdot \\micro) \\cdot v = \\lambda \\cdot (\\micro \\cdot v)\\)\n\\(\\forall v \\in V: 1_{\\Bbb{K}} \\cdot v = v\\)\n\nAlle Elemente aus \\(V\\) nennt man dann Vektoren und die Elemente aus $ nennt man Skalare.",
+    "text": "Definition\n\nWenn wir einen Vektorraum \\((V,+,\\cdot)\\) haben und \\(U \\subseteq V\\), dann heißt \\((U,+,\\cdot)\\) ein Untervektorraum, wenn folgende Bedingungen erfüllt sind:\n\n\\(0_V\\in U\\)\nAbgeschlossen unter addition\nAbgeschlossen unter skalarer Multiplikation",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Vektoraum über $\\Bbb{K}$"
+      "4.1 Untervektorraum"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Vektorraum über K.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Vektorraum über K.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nUntervektorraum\nLineare Abbildung\nLineare Hülle und Erzeugendensystem\nQuotientenvektorraum\nAlgebren",
+    "text": "Siehe auch\n\n\nAffiner Unterraum\nUntervektorraum aller K-Linearen Abbildungen\nSumme von Untervektorräumen\nSchnitt von Untervektorräumen\nDirektes Produkt von Vektorräumen\nDirekte Summe von Untervektorräumen\nKomplementäre Untervektorräume",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Vektoraum über $\\Bbb{K}$"
+      "4.1 Untervektorraum"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Lineare Abbildung.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Lineare Abbildung.html#definition",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#definition",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Definition",
-    "text": "Definition\n\nEine Lineare Abbildung ist ein Homomorphismus von \\(\\Bbb{K}\\)-Vektorräumen. Also ist eine Abbildung \\(\\varphi\\) linear, wenn:\n\\[\\varphi: V \\rightarrow W\\]\n\\[\\forall x,y\\in V:\\varphi(x+y)=\\varphi(x)+\\varphi(y)\\]\n\\[\\forall \\lambda \\in \\Bbb{K}, x\\in V:\\varphi(\\lambda \\cdot y)=\\lambda \\cdot\\varphi(y)\\]\nIsomorphie und Endomorphie und Automorphie ist gleich und klar.",
+    "text": "Definition\n\nEs sei \\(\\Bbb{K}\\) ein Körper. Eine Teilmenge \\(R \\subseteq V\\) eines K-Vektorraumes heiße affiner Unterraum, wenn ein \\(p\\in V\\) und ein Untervektorraum \\(U\\) existiert, sodass\n\\[R = p+U\\]",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Lineare Abbildung"
+      "4.1 Affiner Unterraum"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Lineare Abbildung.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Lineare Abbildung.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#dimension-eines-affinen-unterraumes",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#dimension-eines-affinen-unterraumes",
     "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nRang einer linearen Abbildung\nDarstellungsmatrix einer Abbildung von Km nach Kn\nFortsetzungssatz\nSatz bezüglich Erzeugendensystem, linear unabhängig, Basis und surjektiv, injektiv, bijektiv\nDimensionsformel für lineare Abbildungen\nLinear in der j-ten Komponente, multilinear und alternierend\nDeterminante und Spur eines Endomorphismus",
+    "section": "Dimension eines Affinen Unterraumes",
+    "text": "Dimension eines Affinen Unterraumes\n\nDie Dimension eines Affinen Unterraumes ist die Dimension des um den Fußpunkt verschobenen Untervektorraums.",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
-      "4.1 Lineare Abbildung"
+      "4.1 Affiner Unterraum"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#definition",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Definition",
-    "text": "Definition\n\nZwei Matrizen \\(A,B\\in \\Bbb K^{m\\times n}\\) heißen Äquivalent, wenn es zwei Invertierbare Matrizen \\(S \\in GL(m,\\Bbb K)\\) und \\(T\\in GL(n,\\Bbb K)\\) gibt, sodass \\(SAT = B\\).\nZwei Matrizen \\(A,B\\in \\Bbb K^{n\\times n}\\) heißen Ähnlich, wenn es eine Invertierbare Matrizen \\(S \\in GL(n,\\Bbb K)\\) gibt, sodass \\(SAS^{-1} = B\\).\nDas bedeutet also, dass zwei Matrizen Ähnlich sind, wenn die denselben Endomorphismus nur bezüglich unterschiedlichen Basen beschreiben.",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Äquivalente und Ähnliche Matrizen"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#korollar-4.3.19",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#korollar-4.3.19",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Korollar 4.3.19",
-    "text": "Korollar 4.3.19\n\nZwei Martizen \\(A,B\\in \\Bbb K^{n\\times n}\\) sind genau dann äquivalent, wenn sie den gleichen Rang haben.",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Äquivalente und Ähnliche Matrizen"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#ähnlichkeitsinvarianten-5.5.7",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#ähnlichkeitsinvarianten-5.5.7",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Ähnlichkeitsinvarianten (5.5.7)",
-    "text": "Ähnlichkeitsinvarianten (5.5.7)\n\nEs sei \\(\\Bbb K\\) ein Körper und \\(A,B\\in\\Bbb K^{n\\times n}\\). Wenn \\(A\\) und \\(B\\) ähnlich sind, so gilt\n\n\\(rg(A)=rg(B)\\)\n\\(det(A)=det(B)\\)\n\\(tr(A)=tr(B)\\)\n\nDies ist aber keine Äquivalente Beziehung! Wenn die drei Eigenschaften erfüllt sind heißt dies nicht, dass zwei Matrizen Ähnlich sind!\n\nZudem haben zwei Ähnliche Matrizen dieselben Eigenwerte.\nZudem haben zwei Ähnliche Matrizen dasselbe charakteristische Polynom.",
-    "crumbs": [
-      "4. Vektorräume und lineare Abbildungen",
-      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Äquivalente und Ähnliche Matrizen"
-    ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nSpur einer Matrix",
+    "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
-      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Äquivalente und Ähnliche Matrizen"
+      "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
+      "4.1 Affiner Unterraum"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Smithsche Normalform.html#definition",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Smithsche Normalform.html#definition",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum aller K-Linearen Abbildungen.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum aller K-Linearen Abbildungen.html#definition",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Definition",
-    "text": "Definition\n\nZu jeder linearen Abbildung \\(\\varphi: V \\rightarrow W\\) existieren zwei geordnete Basen \\(B_W, B_V\\), sodass die Darstellungsmatrix von \\(\\varphi\\) bezüglich diesen Basen in folgender Diagonalform ist:\n\nDie Anzahl der Einsen entspricht genau \\(rg(\\varphi)\\).",
+    "text": "Definition\n\nEs sei \\(\\Bbb{K}\\) ein Körper und \\(V\\), \\(W\\) seien Vektorräume über \\(\\Bbb{K}\\). Dann ist die Menge aller \\(\\Bbb{K}\\)-linearen Abbildungen von \\(V\\) nach \\(W\\) ein Untervektorraum von \\(W^V\\).\nDiesen Untervektorraum nennen wir \\(Hom_\\Bbb{K}(V,W)\\).",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
-      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Smithsche Normalform"
+      "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
+      "4.1 Untervektorraum aller K-Linearen Abbildungen"
     ]
   },
   {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Smithsche Normalform.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Smithsche Normalform.html#siehe-auch",
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum aller K-Linearen Abbildungen.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum aller K-Linearen Abbildungen.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nAffiner Unterraum",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen",
+      "4.1 Untervektorraum aller K-Linearen Abbildungen"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "",
+    "text": "yTARGET DECK\nLineare Algebra I\n4.3 Invertierbare Matrizen\n–",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "Definition"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nEine quadratische Matrix \\(A\\in \\Bbb K^{n\\times n}\\) heißt invertierbare Matrix, wenn es eine andere Matrix \\(B\\in \\Bbb K^{n\\times n}\\) existiert, sodass man sie durch die Matrizenmultiplikation und den Operationen des Körpers auswertet zu:\n\\[ AB = \\Bbb 1_n = BA\\]\nDie Gruppe aller invertierbaren Matrizen mit reelen Eintragen bezeichnet man als allgemeine lineare Gruppe und schreibt \\(GL(n,\\Bbb R)\\)",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "Definition"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#charakterisierung",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#charakterisierung",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Charakterisierung",
+    "text": "Charakterisierung\n\n\n\\(A\\) ist invertierbar.\n\\(A^T\\) ist invertierbar.\n\\(B \\in K^n\\) : \\(BA = \\mathbf{1}_n\\).\n\\(B \\in K^n\\) : \\(AB = \\mathbf{1}_n\\).\n\\(\\text{ker}(A) = \\{0\\}\\).\n\\(\\text{rg}(A) = n\\).\n\\(A : K^n \\rightarrow K^n\\), \\(x \\mapsto Ax\\) ist injektiv.\n\\(A : K^n \\rightarrow K^n\\), \\(x \\mapsto Ax\\) ist surjektiv.\n\\(A : K^n \\rightarrow K^n\\), \\(x \\mapsto Ax\\) ist bijektiv.",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "Definition"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nÄquivalente und Ähnliche Matrizen\nKriterium für die Invertierbarkeit",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "Definition"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nEs sei \\(\\Bbb K\\) ein Körper, \\(V,W\\) VR der Dimension \\(n\\) und \\(C,B\\) seien geordnete Basen von \\(V\\). Die Darstellungsmatrix\n\\[M_{C,B}(id_V)\\]\nvon der Identität ist die Darstellungsmatrix mit der geordneten Basis B im Definitionsbereich und C im Zielbereich. Diese Matrix nennt man Basiswechselmatrix von B nach C.",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "4.3 Basiswechselmatrix"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#lemma-4.3.15",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#lemma-4.3.15",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Lemma (4.3.15)",
+    "text": "Lemma (4.3.15)\n\nMan kann sich jede invertierbare Matrix auch als Basiswechselmatrix vorstellen :)",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "4.3 Basiswechselmatrix"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.html#siehe-auch",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Siehe auch",
+    "text": "Siehe auch\n\n\nSmithsche Normalform",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "4.3 Basiswechselmatrix"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer linearen Abbildung.html#definition",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer linearen Abbildung.html#definition",
+    "title": "Über das wissenschaftliche Schreiben",
+    "section": "Definition",
+    "text": "Definition\n\nHier sei \\(\\Bbb K\\) ein Körper und \\(V,W\\) je zwei Vektorräume aus diesem Körper, mit \\(n = dim_{\\Bbb K}(V)\\) und \\(m = dim_{\\Bbb K}(W)\\) und nehmen wir an es seien zwei geordnete Basis \\(B_V\\) und \\(B_W\\) gegeben.\n\nSei \\(A\\in \\Bbb K^{m \\times n}\\) eine Matrix und \\(\\varphi_A\\) die Linksmultiplikation von \\(A\\). Dementsprechend kann ich eine Abbildung \\(\\varphi\\) konstruieren, die von \\(V \\rightarrow W\\) geht und so definiert ist, dass sie einen Vektor V nimmt, ihn in seine Isomorphe darstellung in \\(\\Bbb K^n\\) umwandelt, diesen Vektor links mit \\(A\\) multipliziert, und ihn dann von \\(\\Bbb K^m\\) in seine Isomorphe darstellung in \\(W\\) umwandelt. :)\nFür jede \\(\\Bbb K\\)-lineare Abbildung \\(\\varphi\\) gibt es eine Darstellungsmatrix \\(M_{B_W,B_V}(\\varphi)\\)!\nMan kann Darstellungsmatrizen / Abbildungen sozusagen “transitiv verketten”.\nEs gilt nämlich: \\(M_{B_W,B_U}(\\varphi)M_{B_U,B_W}(\\varphi)=M_{B_W,B_V}(\\varphi).\\)\nDie Einheitsmatrix entspricht der Identitätsabbildung\nMatrizen und lineare Abbildungen sind Isomorph!!!\nEine lineare Abbildung ist genau dann bijetiv, wenn ihre Darstellungsmatrix invertierbar ist.\nDie Menge aller Vektorraumendomorphismen \\(End_{\\Bbb K}(V)\\) von \\(V\\) bildet mit \\(+\\) und \\(\\circ\\) einen Ring. Die Abbildungen die VR-Endomorphismen eine Matrix zuordnet ist ein Isomorphismus.",
+    "crumbs": [
+      "4. Vektorräume und lineare Abbildungen",
+      "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
+      "4.3 Darstellungsmatrix einer linearen Abbildung"
+    ]
+  },
+  {
+    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer linearen Abbildung.html#siehe-auch",
+    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer linearen Abbildung.html#siehe-auch",
     "title": "Über das wissenschaftliche Schreiben",
     "section": "Siehe auch",
     "text": "Siehe auch\n\n\nHier immer spezifischer Werden. Z.b. Abbildung linkt zu arten von Abbildungen und nicht umgekehrt",
     "crumbs": [
       "4. Vektorräume und lineare Abbildungen",
       "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen",
-      "4.3 Smithsche Normalform"
+      "4.3 Darstellungsmatrix einer linearen Abbildung"
     ]
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix von Km nach Kn.html#satz-4.3.1",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix von Km nach Kn.html#satz-4.3.1",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Satz (4.3.1)",
-    "text": "Satz (4.3.1)\n\nMan hat gesehen, dass man eine Abbildung von \\(K^n\\) nach \\(K^m\\) auch als Linksmultiplikation einer Matrix darstellen kann. Es gilt aber sogar:\n\nfür jede Matrix \\(A \\in \\Bbb K^{m \\times n}\\) ist die Abbildung \\[\\varphi_A:\\Bbb K^n \\rightarrow \\Bbb K^m, x \\mapsto Ax\\] \\(\\Bbb K\\)-linear, also \\(\\varphi \\in Hom(\\Bbb K^n, \\Bbb K^m)\\).\n\n\nIN DEN SPALTEN DER MATRIX A STEHEN DIE BILDER DER STANDARTBASISVEKTOREN OMG\n\n\nZu jeder linearen Abbildung \\(\\varphi:\\Bbb K^n \\rightarrow \\Bbb K^m\\) gibt es eine Matrix \\(A \\in \\Bbb K^{m \\times n}\\), sodass “\\(Ax = \\varphi(x)\\)”. Diese Matrix ist eindeutig und wird auch Darstellungsmatrix genannt. Man bezeichnet sie mit \\(M_{E,E}(\\varphi)\\).\nGegeben sind zwei Matrizen \\(A\\in \\Bbb{K}^{m\\times n}\\) sowie \\(B \\in \\Bbb{K}^{n\\times p}\\). Das verketten der linearen darstellungsabbilden Abbildungen \\(\\varphi_A\\) und \\(\\varphi_B\\) entspricht dem Multiplizieren der Matrizen und umgekehrt.\nDie Einheitsmatrix entspricht der Identitätsabbildung\nEs gilt, dass eine Matrix \\(A \\in \\Bbb K^{m\\times n}\\) ist isomorph zu ihrer lineareren Abbildung \\(\\varphi_A\\).\nEine lineare Abbildung \\(\\varphi = \\varphi_A: \\Bbb K^n \\rightarrow \\Bbb K^m\\) ist genau dann bijektiv (also ein VR Isomorphismus), wenn \\(m=n\\) und wenn die Darstellungsmatrix \\(A=M_{E,E}(\\varphi)\\) multiplikativ invertierbar ist."
-  },
-  {
-    "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix von Km nach Kn.html#siehe-auch",
-    "href": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix von Km nach Kn.html#siehe-auch",
-    "title": "Über das wissenschaftliche Schreiben",
-    "section": "Siehe auch",
-    "text": "Siehe auch\n\n\nInvertierbare Matrizen\nBasiswechselmatrix\nDarstellungsmatrix einer linearen Abbildung"
   },
   {
     "objectID": "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Geordnete Basis und Koordinatenvektoren.html#definition",
