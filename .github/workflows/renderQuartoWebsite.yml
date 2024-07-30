@@ -30,7 +30,7 @@ jobs:
     - name: Build the QuartoObsidianFileProcessor project
       run: |
         cd quarto-observable-file-processor/control
-        mvn clean install
+        mvn clean install package
 
     - name: Run SuperMain
       run: |
