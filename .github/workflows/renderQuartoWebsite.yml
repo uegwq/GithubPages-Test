@@ -36,6 +36,18 @@ jobs:
       run: |
         cd quarto-observable-file-processor
         java -cp control/target/control-1.0-SNAPSHOT.jar controler.SuperMain ui--false ${GITHUB_WORKSPACE}
+
+    - name: List directories and files
+      run: |
+        echo "Listing current directory:"
+        ls -al
+        echo "Listing quarto-observable-file-processor directory:"
+        ls -al quarto-observable-file-processor
+        echo "Listing contents of exportFiles if it exists:"
+        ls -al quarto-observable-file-processor/exportFiles || echo "exportFiles directory does not exist in quarto-observable-file-processor"
+
+
+        
     
     - name: Verify exportFiles directory
       run: |
