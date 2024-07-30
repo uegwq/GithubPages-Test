@@ -62,6 +62,7 @@ jobs:
         git config --global user.name "git action uegwq"
         git config --global user.email "22135145-uegwq@users.noreply.gitlab.com"
         git add exportFiles -f
+        git push
     - name: git push
       uses: ad-m/github-push-action@master
       with:
