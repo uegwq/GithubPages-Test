@@ -40,7 +40,7 @@ jobs:
       run: |
         cd quarto-observable-file-processor
         echo ${GITHUB_WORKSPACE}
-        java -cp control/target/control-1.0-SNAPSHOT.jar controler.SuperMain ui--false /
+        java -cp control/target/control-1.0-SNAPSHOT.jar controler.SuperMain ui--false ${GITHUB_WORKSPACE}
 
     - name: List directories and files
       run: |
