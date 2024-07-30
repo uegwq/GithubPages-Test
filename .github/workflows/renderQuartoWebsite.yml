@@ -60,12 +60,6 @@ jobs:
       run: |
         if [ -d "exportFiles" ]; then echo "Directory exportFiles exists."; else echo "Directory exportFiles does not exist."; exit 1; fi
 
-    - name: verify paths before quarto runs
-      run: |
-        cd ${GITHUB_WORKSPACE}
-        echo "Listing current directory:"
-        ls -al
-    
     - name: Set up Quarto
       uses: quarto-dev/quarto-actions/setup@v2
 
