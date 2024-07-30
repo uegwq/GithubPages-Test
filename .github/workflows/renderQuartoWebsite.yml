@@ -57,6 +57,12 @@ jobs:
       run: |
         if [ -d "exportFiles" ]; then echo "Directory exportFiles exists."; else echo "Directory exportFiles does not exist."; exit 1; fi
 
+    - name: git commit everything
+      run: |
+        git add exportFiles
+        git commit -m "added the exportFiles" -f
+
+
     - name: Set up Quarto
       uses: quarto-dev/quarto-actions/setup@v2
 
@@ -65,10 +71,6 @@ jobs:
         cd ${GITHUB_WORKSPACE}
         echo "Listing current directory:"
         ls -al
-    - name: git commit everything
-      run: |
-        git add exportFiles
-        git commit -m "added the exportFiles"
 
     - name: Render and Publish
       uses: quarto-dev/quarto-actions/publish@v2
