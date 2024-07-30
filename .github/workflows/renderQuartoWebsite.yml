@@ -55,9 +55,6 @@ jobs:
       run: |
         if [ -d "exportFiles" ]; then echo "Directory exportFiles exists."; else echo "Directory exportFiles does not exist."; exit 1; fi
 
-    - name: Check out repository
-      uses: actions/checkout@v4
-
     - name: Set up Quarto
       uses: quarto-dev/quarto-actions/setup@v2
 
