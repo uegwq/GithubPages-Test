@@ -35,7 +35,7 @@ jobs:
     - name: Run SuperMain
       run: |
         cd quarto-observable-file-processor
-        java -cp target/control-1.0-SNAPSHOT.jar controler.SuperMain ui--false ${GITHUB_WORKSPACE}
+        java -cp control/target/control-1.0-SNAPSHOT.jar controler.SuperMain ui--false ${GITHUB_WORKSPACE}
     
     - name: Verify exportFiles directory
       run: |
