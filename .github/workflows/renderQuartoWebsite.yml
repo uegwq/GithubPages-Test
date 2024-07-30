@@ -63,9 +63,10 @@ jobs:
         git config --global user.email "22135145-uegwq@users.noreply.gitlab.com"
         git add exportFiles -f
     - name: git push
-      uses: ad-m/github-push-action@master
+      uses: ad-m/github-push-action@main
       with:
-        branch: ${{ github.head_ref }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
 
   render:
     runs-on: ubuntu-latest
