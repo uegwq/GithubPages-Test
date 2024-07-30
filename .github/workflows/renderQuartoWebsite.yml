@@ -36,11 +36,11 @@ jobs:
       run: |
         cd quarto-observable-file-processor
         echo ${GITHUB_WORKSPACE}
-        java -cp control/target/control-1.0-SNAPSHOT.jar controler.SuperMain ui--false ${GITHUB_WORKSPACE}
+        java -cp control/target/control-1.0-SNAPSHOT.jar controler.SuperMain ui--false /
 
     - name: List directories and files
       run: |
-        cd ${GITHUB_WORKSPACE}
+        cd /
         echo "Listing current directory:"
         ls -al
         echo "Listing quarto-observable-file-processor directory:"
