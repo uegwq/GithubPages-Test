@@ -44,7 +44,7 @@ $\iff p_A(\lambda)=0$
 
 ***
 
-![](<Pasted image 20240305140900.png>)
+![](</Pasted image 20240305140900.png>)
 
 <!--ID: 1711978844712-->
 
