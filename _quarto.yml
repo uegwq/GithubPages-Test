@@ -1,0 +1,136 @@
+project:
+  type: website
+
+website:
+  title: "Über das wissenschaftliche Schreiben"
+  sidebar:
+    contents:
+      - section: "3. Algebraische Strukturen"
+        contents:
+        - section: "3.1 Halbgruppen"
+          contents:
+          - "3. Algebraische Strukturen/3.1 Halbgruppen/Binäre Operation.md"
+          - "3. Algebraische Strukturen/3.1 Halbgruppen/Cayley-Tafel.md"
+          - "3. Algebraische Strukturen/3.1 Halbgruppen/Halbgruppe.md"
+          - "3. Algebraische Strukturen/3.1 Halbgruppen/Invertierbarkeit.md"
+          - "3. Algebraische Strukturen/3.1 Halbgruppen/Monoid.md"
+        - section: "3.2 Gruppen"
+          contents:
+          - "3. Algebraische Strukturen/3.2 Gruppen/Gruppe.md"
+          - "3. Algebraische Strukturen/3.2 Gruppen/Gruppenhomomorphismus.md"
+          - "3. Algebraische Strukturen/3.2 Gruppen/Injektive Gruppenhomomorphismen.md"
+          - "3. Algebraische Strukturen/3.2 Gruppen/Untergruppe.md"
+        - section: "3.3 Ringe und Körper"
+          contents:
+          - "3. Algebraische Strukturen/3.3 Ringe und Körper/Körper.md"
+          - "3. Algebraische Strukturen/3.3 Ringe und Körper/Ring.md"
+          - "3. Algebraische Strukturen/3.3 Ringe und Körper/Ringhomomorphismus.md"
+          - "3. Algebraische Strukturen/3.3 Ringe und Körper/Unterring.md"
+        - section: "3.4 Der Ring der ganzen Zahlen und seine Quotientenräume"
+          contents:
+          - "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Fundamentalsatz der Arithmetik und Lemma von Euklid.md"
+          - "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Kongurenz Modulo m.md"
+          - "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Quotientenmenge und Quotientenabbildungen.md"
+          - "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Restkörper und Primzahlen.md"
+          - "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Teilbarkeitsrelation.md"
+          - "3. Algebraische Strukturen/3.4 Der Ring der ganzen Zahlen und seine Quotientenräume/Äquivalenzklasse modulo m.md"
+        - section: "3.5 Der Körper der komplexen Zahlen"
+          contents:
+          - "3. Algebraische Strukturen/3.5 Der Körper der komplexen Zahlen/Der Körper der komplexen Zahlen.md"
+      - section: "4. Vektorräume und lineare Abbildungen"
+        contents:
+        - section: "4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen"
+          contents:
+          - "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Affiner Unterraum.md"
+          - "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Lineare Abbildung.md"
+          - "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum aller K-Linearen Abbildungen.md"
+          - "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Untervektorraum.md"
+          - "4. Vektorräume und lineare Abbildungen/4.1 Grundlegendes zu Vektorräumen und linearen Abbildungen/Vektorraum über K.md"
+        - section: "4.2 Lineare Hülle, Basis, Dimension"
+          contents:
+          - "4. Vektorräume und lineare Abbildungen/4.2 Lineare Hülle, Basis, Dimension/Basis.md"
+          - "4. Vektorräume und lineare Abbildungen/4.2 Lineare Hülle, Basis, Dimension/Basisauswahl- und Ergänzungssatz.md"
+          - "4. Vektorräume und lineare Abbildungen/4.2 Lineare Hülle, Basis, Dimension/Fortsetzungssatz.md"
+          - "4. Vektorräume und lineare Abbildungen/4.2 Lineare Hülle, Basis, Dimension/Isomorphismen von Basen.md"
+          - "4. Vektorräume und lineare Abbildungen/4.2 Lineare Hülle, Basis, Dimension/Lineare Hülle und Erzeugendensystem.md"
+          - "4. Vektorräume und lineare Abbildungen/4.2 Lineare Hülle, Basis, Dimension/Lineare Unabhängigkeit.md"
+          - "4. Vektorräume und lineare Abbildungen/4.2 Lineare Hülle, Basis, Dimension/Rang einer linearen Abbildung.md"
+          - "4. Vektorräume und lineare Abbildungen/4.2 Lineare Hülle, Basis, Dimension/Satz bezüglich Erzeugendensystem, linear unabhängig, Basis und surjektiv, injektiv, bijektiv.md"
+          - "4. Vektorräume und lineare Abbildungen/4.2 Lineare Hülle, Basis, Dimension/Satz zu endlichen Basen.md"
+        - section: "4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen"
+          contents:
+          - "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Basiswechselmatrix.md"
+          - "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer Abbildung von Km nach Kn.md"
+          - "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Darstellungsmatrix einer linearen Abbildung.md"
+          - "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Geordnete Basis und Koordinatenvektoren.md"
+          - "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Invertierbare Matrizen.md"
+          - "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Smithsche Normalform.md"
+          - "4. Vektorräume und lineare Abbildungen/4.3 Lineare Abbildungen zwischen endlichdimensionalen Vektorräumen und Darstellungsmatrizen/Äquivalente und Ähnliche Matrizen.md"
+        - section: "4.4 Direkte Summen und Komplemente"
+          contents:
+          - "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direkte Summe von Untervektorräumen.md"
+          - "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Direktes Produkt von Vektorräumen.md"
+          - "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Komplementäre Untervektorräume.md"
+          - "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Schnitt von Untervektorräumen.md"
+          - "4. Vektorräume und lineare Abbildungen/4.4 Direkte Summen und Komplemente/Summe von Untervektorräumen.md"
+        - section: "4.5 Quotientenvektorräume"
+          contents:
+          - "4. Vektorräume und lineare Abbildungen/4.5 Quotientenvektorräume/Dimensionsformel für lineare Abbildungen.md"
+          - "4. Vektorräume und lineare Abbildungen/4.5 Quotientenvektorräume/Homomorphiesatz.md"
+          - "4. Vektorräume und lineare Abbildungen/4.5 Quotientenvektorräume/Quotientenvektorraum.md"
+          - "4. Vektorräume und lineare Abbildungen/4.5 Quotientenvektorräume/Satz zu Quotienten und Komplementen.md"
+      - section: "5. Endomorphismen"
+        contents:
+        - section: "5.1 Das Signum einer Permutation"
+          contents:
+          - "5. Endomorphismen/5.1 Das Signum einer Permutation/Das Signum einer Permutation.md"
+          - "5. Endomorphismen/5.1 Das Signum einer Permutation/Die alternierende Gruppe.md"
+          - "5. Endomorphismen/5.1 Das Signum einer Permutation/Permutation und symetrische Gruppe.md"
+          - "5. Endomorphismen/5.1 Das Signum einer Permutation/Transpositionen.md"
+        - section: "5.2 Alternierende Abbildungen"
+          contents:
+          - "5. Endomorphismen/5.2 Alternierende Abbildungen/Linear in der j-ten Komponente, multilinear und alternierend.md"
+        - section: "5.3 Determinanten"
+          contents:
+          - "5. Endomorphismen/5.3 Determinanten/Adjunkte.md"
+          - "5. Endomorphismen/5.3 Determinanten/Cramersche Regel.md"
+          - "5. Endomorphismen/5.3 Determinanten/Die Determinante einer Matrix.md"
+          - "5. Endomorphismen/5.3 Determinanten/Dreiecksmatrizen, Diagonalmatrix.md"
+          - "5. Endomorphismen/5.3 Determinanten/Entwicklungssatz von Laplace.md"
+          - "5. Endomorphismen/5.3 Determinanten/Kriterium für die Invertierbarkeit.md"
+          - "5. Endomorphismen/5.3 Determinanten/Streichungsmatrix.md"
+        - section: "5.4 Algebren und Polynome"
+          contents:
+          - "5. Endomorphismen/5.4 Algebren und Polynome/Abbildungen von Polynomen.md"
+          - "5. Endomorphismen/5.4 Algebren und Polynome/Algebren.md"
+          - "5. Endomorphismen/5.4 Algebren und Polynome/Polynomalgebra.md"
+        - section: "5.5 Endomorphismen und Ähnlichkeit"
+          contents:
+          - "5. Endomorphismen/5.5 Endomorphismen und Ähnlichkeit/Determinante und Spur eines Endomorphismus.md"
+          - "5. Endomorphismen/5.5 Endomorphismen und Ähnlichkeit/Spur einer Matrix.md"
+        - section: "5.6 Eigenwerte und Eigenvektoren"
+          contents:
+          - "5. Endomorphismen/5.6 Eigenwerte und Eigenvektoren/Algebraische Vielfachheit und Geometrische Vielfachheit eines Eigenwertes.md"
+          - "5. Endomorphismen/5.6 Eigenwerte und Eigenvektoren/Berechnen und Finden von Eigen-Wert-Vektor-Raum.md"
+          - "5. Endomorphismen/5.6 Eigenwerte und Eigenvektoren/Das charakteristische Polynom einer Matrix.md"
+          - "5. Endomorphismen/5.6 Eigenwerte und Eigenvektoren/Diagonalisierbarkeit.md"
+          - "5. Endomorphismen/5.6 Eigenwerte und Eigenvektoren/Eigenwert und Eigenvektor.md"
+      - section: "6. Zuzsätzliches"
+        contents:
+        - "6. Zuzsätzliches/Übersicht, Summenraum, Schnittraum, Restmenge.md"
+      - section: "Untitled"
+        contents:
+
+execute:
+  freeze: true
+  cache: true
+
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo	
+
+render:
+  dpi: 1
