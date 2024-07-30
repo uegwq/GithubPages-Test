@@ -39,6 +39,7 @@ jobs:
 
     - name: List directories and files
       run: |
+        cd ${GITHUB_WORKSPACE}
         echo "Listing current directory:"
         ls -al
         echo "Listing quarto-observable-file-processor directory:"
