@@ -51,8 +51,12 @@ jobs:
         ls -al quarto-observable-file-processor
         echo "Listing contents of exportFiles if it exists:"
         ls -al quarto-observable-file-processor/exportFiles || echo "exportFiles directory does not exist in quarto-observable-file-processor"
-  
+    - name: Verify exportFiles directory
+      run: |
+        if [ -d "exportFiles" ]; then echo "Directory exportFiles exists."; else echo "Directory exportFiles does not exist."; exit 1; fi
+
   render:
+    runs-on: ubuntu-latest
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -73,8 +77,3 @@ jobs:
           path: ${GITHUB_WORKSPACE}/exportFiles
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
-    
-    - name: Verify exportFiles directory
-      run: |
-        if [ -d "exportFiles" ]; then echo "Directory exportFiles exists."; else echo "Directory exportFiles does not exist."; exit 1; fi
