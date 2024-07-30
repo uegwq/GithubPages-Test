@@ -60,18 +60,6 @@ jobs:
       run: |
         if [ -d "exportFiles" ]; then echo "Directory exportFiles exists."; else echo "Directory exportFiles does not exist."; exit 1; fi
 
-    - name: git commit everything
-      run: |
-        git config --global user.name "git action uegwq"
-        git config --global user.email "22135145-uegwq@users.noreply.gitlab.com"
-        git add exportFiles -f
-        git push
-    - name: git push
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
-
     - name: verify paths before quarto runs
       run: |
         cd ${GITHUB_WORKSPACE}
