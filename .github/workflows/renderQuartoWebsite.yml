@@ -18,7 +18,7 @@ jobs:
     - name: Checkout current repository
       uses: actions/checkout@v3
       with:
-          token: ${{ secrets.PAT }}
+        token: ${{ secrets.PAT }}
 
     - name: Checkout QuartoObsidianFileProcessor repository
       uses: actions/checkout@v3
